@@ -1,0 +1,7 @@
+﻿2017-12-11 10:01:02.202 -0600	START		Running Importing files.script
+2017-12-11 10:01:02.311 -0600	Log		BBOXC=\\CR017933\\BBOXC\n	4	on_importing_files	Importing files.script
+2017-12-11 10:01:02.311 -0600	Log		3	12	on_importing_files	Importing files.script
+2017-12-11 10:01:02.327 -0600	Log		Milk, Rice, Wheat, Bread, Tea, Sugar, Oil,Ghee, 	13	on_importing_files	Importing files.script
+2017-12-11 10:01:02.327 -0600	Log		Milk, Rice, Wheat, Bread, Tea, Sugar, Oil,Ghee, 	20	on_importing_files	Importing files.script
+2017-12-11 10:01:02.639 -0600	EndTestCase		(Duration:"0.437", Errors:"0", Exceptions:"0", StartTime:"2017-12-11 10:01:02 -0600", Successes:"1", TestCase:"Importing files.script", Warnings:"0")
+2017-12-11 10:01:02.686 -0600	SUCCESS		Execution Time 0:00:00 Importing files.script

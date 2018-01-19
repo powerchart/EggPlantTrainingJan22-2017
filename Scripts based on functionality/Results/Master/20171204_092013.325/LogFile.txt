@@ -1,0 +1,4 @@
+﻿2017-12-04 09:20:13.325 -0600	START		Running Master.script
+2017-12-04 09:20:36.035 -0600	Exception	Chrome Icon	No Image Found On Screen: "Chrome Icon"	1	on_master	Master.script
+2017-12-04 09:20:36.113 -0600	EndTestCase		(Duration:"22.788", Errors:"1", Exceptions:"1", StartTime:"2017-12-04 09:20:13 -0600", Successes:"0", TestCase:"Master.script", Warnings:"0")
+2017-12-04 09:20:36.269 -0600	FAILURE	Screen_Error.png	Image Not Found doubleclick Error - No Image Found On Screen: "Chrome Icon" -- Execution Time 0:00:23 Master.script

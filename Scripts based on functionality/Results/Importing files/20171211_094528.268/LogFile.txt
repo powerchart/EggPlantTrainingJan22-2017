@@ -1,0 +1,4 @@
+﻿2017-12-11 09:45:28.283 -0600	START		Running Importing files.script
+2017-12-11 09:45:28.377 -0600	Log		BBOXC=\\CR017933\\BBOXC\n	4	on_importing_files	Importing files.script
+2017-12-11 09:45:28.596 -0600	EndTestCase		(Duration:"0.313", Errors:"0", Exceptions:"0", StartTime:"2017-12-11 09:45:28 -0600", Successes:"1", TestCase:"Importing files.script", Warnings:"0")
+2017-12-11 09:45:28.705 -0600	SUCCESS		Execution Time 0:00:00 Importing files.script

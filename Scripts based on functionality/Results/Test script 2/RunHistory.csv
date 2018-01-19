@@ -1,0 +1,8 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-12-11 11:34:54.516 -0600,"Failure",0:00:23,1,0,1,"20171211_113454.516/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Refresh Icon""",1
+2017-12-11 12:53:08.296 -0600,"Success",0:01:00,0,0,0,"20171211_125308.296/LogFile.txt","","",1
+2017-12-11 12:54:19.548 -0600,"Success",0:01:03,0,0,0,"20171211_125419.548/LogFile.txt","","",1
+2017-12-11 12:55:37.002 -0600,"Success",0:01:08,0,0,0,"20171211_125537.002/LogFile.txt","","",1
+2017-12-11 12:57:51.999 -0600,"Running",0:00:00,0,0,0,"20171211_125751.999/LogFile.txt","","",0
+2017-12-11 12:59:27.818 -0600,"Success",0:01:11,0,0,0,"20171211_125927.818/LogFile.txt","","",1
+2017-12-11 13:01:11.112 -0600,"Success",0:00:34,0,0,0,"20171211_130111.112/LogFile.txt","","",1

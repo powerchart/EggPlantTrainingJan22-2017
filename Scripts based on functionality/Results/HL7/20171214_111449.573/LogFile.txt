@@ -1,0 +1,6 @@
+﻿2017-12-14 11:14:49.573 -0600	START		Running HL7.script
+2017-12-14 11:14:50.325 -0600	imagefound	updatetrategyMupdatetrategy	found at (640, 428)	9	on_hl7	HL7.script
+2017-12-14 11:14:51.756 -0600	readtext		(640,428)
+2017-12-14 11:14:51.772 -0600	Log		<update$trategy>M</update$trategy>	15	on_hl7	HL7.script
+2017-12-14 11:14:52.179 -0600	EndTestCase		(Duration:"2.605", Errors:"0", Exceptions:"0", StartTime:"2017-12-14 11:14:49 -0600", Successes:"1", TestCase:"HL7.script", Warnings:"0")
+2017-12-14 11:14:52.232 -0600	SUCCESS		Execution Time 0:00:03 HL7.script

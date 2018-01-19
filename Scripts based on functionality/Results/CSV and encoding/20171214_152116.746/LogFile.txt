@@ -1,0 +1,4 @@
+﻿2017-12-14 15:21:16.762 -0600	START		Running CSV and encoding.script
+2017-12-14 15:21:16.840 -0600	Log			8	on_csv_and_encoding	CSV and encoding.script
+2017-12-14 15:21:17.184 -0600	EndTestCase		(Duration:"0.422", Errors:"0", Exceptions:"0", StartTime:"2017-12-14 15:21:16 -0600", Successes:"1", TestCase:"CSV and encoding.script", Warnings:"0")
+2017-12-14 15:21:17.246 -0600	SUCCESS		Execution Time 0:00:01 CSV and encoding.script

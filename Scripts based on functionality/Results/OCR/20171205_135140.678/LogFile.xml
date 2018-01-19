@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="OCR.script" package="eggPlant script.suite" timestamp="2017-12-05 13:51:40.678 -0600"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2017-12-05 13:51:40.678 -0600"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="OCR.script" assertions="1" successes="0" errors="1" time="30.437">
+  </testcase>
+ </testsuite>
+</testsuites>

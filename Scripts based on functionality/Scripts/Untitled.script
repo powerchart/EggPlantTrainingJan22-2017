@@ -1,0 +1,20 @@
+﻿
+
+//it works
+
+Put file ResourcePath ("Config.csv")  into config_details
+Put DecodeText(item 8 of line 2 of config_details)  into global Deployer_Password
+log (global Deployer_Password)
+
+log DecodeText(global Deployer_Password)
+typetext DecodeText(global Deployer_Password)
+
+
+
+SendMail (To:"Chaithrik@gmail.com", Subject:"Hi", Message:"Email sent")
+
+
+
+
+
+

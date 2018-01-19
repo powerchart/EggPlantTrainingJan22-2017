@@ -1,0 +1,4 @@
+﻿2017-12-15 09:36:54.876 -0600	START		Running Untitled.script
+2017-12-15 09:36:54.931 -0600	Log		gL~/_;elG?a#	4	on_untitled	Untitled.script
+2017-12-15 09:36:55.290 -0600	EndTestCase		(Duration:"0.41", Errors:"0", Exceptions:"0", StartTime:"2017-12-15 09:36:54 -0600", Successes:"1", TestCase:"Untitled.script", Warnings:"0")
+2017-12-15 09:36:55.368 -0600	SUCCESS		Execution Time 0:00:01 Untitled.script

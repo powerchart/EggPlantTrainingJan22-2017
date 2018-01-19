@@ -1,0 +1,4 @@
+﻿2017-12-14 11:44:04.043 -0600	START		Running HL7.script
+2017-12-14 11:45:18.128 -0600	Exception		Searching For Image: OCR Error: Operation was aborted	7	on_hl7	HL7.script
+2017-12-14 11:45:18.471 -0600	EndTestCase		(Duration:"74.412", Errors:"1", Exceptions:"1", StartTime:"2017-12-14 11:44:04 -0600", Successes:"0", TestCase:"HL7.script", Warnings:"0")
+2017-12-14 11:45:18.471 -0600	ABORTED		Execution Time 0:01:14 HL7.script

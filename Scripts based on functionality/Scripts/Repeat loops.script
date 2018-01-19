@@ -1,0 +1,35 @@
+﻿
+//Repeat the for # number of times
+repeat10 times
+typetext "John"
+TypeText returnKey
+end repeat
+
+//Repeat and variables
+put 6 into max
+put "john" into firstName
+
+repeat max times
+	
+	Typetext FirstName
+	Typetext returnKey
+	
+end repeat
+
+//Conditional
+//log "start Script"
+repeat until imagefound("TheBigBangTheoryTheCompleteTen")
+	TypeText pagedown
+end repeat
+
+//escape statements incase image not found
+log "start Script"
+
+repeat until imagefound("TheBigBangTheoryTheCompleteTen")
+	TypeText pagedown
+	
+	if imagefound("EndofPage")then
+		logerror "unable to find image"
+		exit repeat
+	end if
+end repeat

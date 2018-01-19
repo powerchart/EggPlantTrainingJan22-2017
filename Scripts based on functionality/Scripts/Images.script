@@ -1,0 +1,20 @@
+﻿//To check and click on images on page
+
+
+Log "start script"
+repeat until  imagefound (6, "coffee")
+	TypeTextPageDown
+	Log "paging down"
+	
+	if imagefound (2, "ConditionsofUse") then
+		logerror"hit bottom"
+		Exit Repeat
+		
+	end if
+	
+end repeat
+Wait 2
+waitfor 30,image:"coffee"
+
+click FoundImageLocation()
+Log "end script"

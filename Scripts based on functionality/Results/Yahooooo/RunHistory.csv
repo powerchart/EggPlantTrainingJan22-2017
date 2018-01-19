@@ -1,0 +1,9 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-12-04 15:17:13.098 -0600,"Failure",0:00:00,1,0,1,"20171204_151713.098/LogFile.txt","","File Not Found -- doubleclick Error - Could Not Open Image: Google Chrome",0
+2017-12-04 15:49:34.199 -0600,"Success",0:00:01,0,0,0,"20171204_154934.199/LogFile.txt","","",1
+2017-12-05 08:57:51.804 -0600,"Failure",0:00:00,1,0,1,"20171205_085751.804/LogFile.txt","","File Not Found -- waitfor Error - Could Not Open Image: Chrome",0
+2017-12-05 08:58:09.124 -0600,"Success",0:00:00,0,0,0,"20171205_085809.124/LogFile.txt","","",1
+2017-12-05 08:58:31.983 -0600,"Success",0:00:00,0,0,0,"20171205_085831.983/LogFile.txt","","",1
+2017-12-05 08:59:08.877 -0600,"Success",0:00:00,0,0,0,"20171205_085908.877/LogFile.txt","","",1
+2017-12-05 09:00:44.335 -0600,"Success",0:00:00,0,0,0,"20171205_090044.335/LogFile.txt","","",1
+2017-12-05 09:00:56.791 -0600,"Success",0:00:00,0,0,0,"20171205_090056.791/LogFile.txt","","",1

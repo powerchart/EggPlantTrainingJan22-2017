@@ -1,0 +1,8 @@
+﻿2017-12-11 11:34:54.516 -0600	START		Running Test script 2.script
+2017-12-11 11:34:54.609 -0600	Log		Start Script	5	on_test_script_2	Test script 2.script
+2017-12-11 11:34:54.625 -0600	imagefound	Chrome Icon	found at (40, 137)	9	on_test_script_2	Test script 2.script
+2017-12-11 11:34:54.625 -0600	LogSuccess		Found it	10	on_test_script_2	Test script 2.script
+2017-12-11 11:34:54.813 -0600	doubleclick	Chrome Icon	at (40, 137)	16	on_test_script_2	Test script 2.script
+2017-12-11 11:35:18.190 -0600	Exception	Refresh Icon	No Image Found On Screen: "Refresh Icon"	17	on_test_script_2	Test script 2.script
+2017-12-11 11:35:18.377 -0600	EndTestCase		(Duration:"23.846", Errors:"1", Exceptions:"1", StartTime:"2017-12-11 11:34:54 -0600", Successes:"1", TestCase:"Test script 2.script", Warnings:"0")
+2017-12-11 11:35:18.502 -0600	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "Refresh Icon" -- Execution Time 0:00:24 Test script 2.script

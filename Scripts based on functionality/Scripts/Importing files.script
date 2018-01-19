@@ -1,0 +1,126 @@
+﻿
+//Importing direct file
+put file ResourcePath("Textfiles.txt") into FileStuff
+Log fileStuff// displays content of file
+
+//To refer file location. 
+put file "/Users/CR017933......txt" into filestuff
+
+
+//Log new line items
+put file ResourcePath("Textfiles2.txt") into FileStuff
+Log the number of lines of FileStuff
+Log line 2 of FileStuff
+
+
+
+//Log new line items. 
+put file ResourcePath("Textfiles2.txt") into FileStuff
+Put the number of lines of FileStuff into FileStuff_Count
+Log FileStuff_Count
+Repeat FileStuff_Count times
+	put the number of items of FileStuff_Count into Itemsper_Line
+	Log Itemsper_Line
+End Repeat
+
+Log line 1 of FileStuff//To remove newline characters, type log # of FileStuff
+Log line 2 of FileStuff
+
+
+Log FileStuff
+
+
+
+
+//To type every item of list 
+
+Put file ResourcePath("Textfiles2.txt") into FileStuff
+
+Put the number of lines of FileStuff into FileStuff_Count
+
+Repeat FileStuff_Count times
+	
+	log line repeatindex () of FileStuff
+	
+End Repeat
+//
+Put 1 into count
+repeat 5 times
+	Log line count of FileStuff
+end repeat
+
+
+
+
+
+//Reading from excel.csv
+
+Put file ResourcePath ("Excel1.xlsx") into FileStuff
+
+Put the number of lines of FileStuff into FileStuff_Count
+
+Repeat FileStuff_Count times
+	
+	log line repeatindex () of FileStuff
+	
+End Repeat
+//
+Put file ResourcePath ("Excel1.xlsx") into excelstuff
+Log  excelstuff
+
+//Import CSV
+Put file ResourcePath("JIRA 2.csv") into csvstuff
+//Log  item 5 of line 3 of csvstuff
+Put item 2 of line 3 of csvstuff  into Domainname
+
+Log  ("Domainname is", Domainname)
+
+//Log each item of excel line by line
+Put file ResourcePath ("JIRA 2.csv") into JIRAList
+Put (the number of lines of JIRAList)-1 into JIRA_count
+
+repeat JIRA_count+1 times
+	Log line(repeatindex()+0) of JIRAList
+	
+end repeat
+
+//Log extra every data
+
+//Log each item of excel line by line
+Put file ResourcePath ("JIRA 2.csv") into JIRAList
+Put (the number of lines of JIRAList)-1 into JIRA_count
+
+repeat JIRA_count+1 times
+	put line (repeatindex()+1) of JIRAList into JIRA
+	
+	Log JIRA
+	
+end repeat	
+
+//Nested statements
+
+Put file ResourcePath ("JIRA 2.csv") into JIRAList
+Put (the number of lines of JIRAList)-1 into JIRA_count
+
+repeat JIRA_count times
+	
+	
+	
+	put line (repeatindex()+1) of JIRAList into JIRA
+	put the number of lines of JIRA  into Listcount
+	Repeat Listcount times
+		
+		Log item repeatindex() of JIRA
+		
+	end repeat	
+end repeat	
+
+
+
+
+
+
+
+
+
+

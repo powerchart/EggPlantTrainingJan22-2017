@@ -1,0 +1,83 @@
+﻿//put "john" into firstName
+//put "doe" into lastName
+// Set Browser
+DoubleClick "Chrome Icon"
+put "Chrome Icon" into Browser
+DoubleClick Browser
+
+
+//Set browser to Chrome and wait
+put "Chrome Icon" into Browser
+put 30 into wait_for_value
+waitfor wait_for_value, Browser
+//it will wait for 30 seconds to load value"
+
+//in the above case it creates 2 containers-Browser and wait_for_value. Next time when script calls these variables, value assigned to it will be used.
+//ex: Wait for wait_for_value
+//system will waut for 30 seconds
+
+//Cross referencing variables
+put ("john","Doe",40,"Male","Married") into Patient
+put 2 into access
+log item access of patient//output is Doe since it reads as log item 2 of patient
+
+//example cross referencing variabless
+put "5 feet" into height
+put ("john","Doe",40,"Male","Married", height) into Patient
+log item 6 of Patient//output is 5 feet
+typetext item 6 of Patient
+
+
+//Mathematic operations
+put 6 into var1
+put var1 plus seven into var2
+Log var2
+
+put var1 minus three into var3
+log var3
+
+//text operations
+put "hello how are you doing today" into sentence
+log word 3 of sentence
+split sentence by " "
+log sentence
+delete " " in sentence
+
+replace " " with "*" in sentence
+Log sentence
+
+//insert
+put (1,2,3,4,5,3) into sentence
+insert 6 into sentence
+Log sentence
+log the unique items of sentence
+sort sentence
+log sentence
+
+
+
+put ("2017-11-12","2017-03-05","2018-05-06","2017-06-09","2016-10-04") into sentence
+
+sort sentence
+Log sentence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

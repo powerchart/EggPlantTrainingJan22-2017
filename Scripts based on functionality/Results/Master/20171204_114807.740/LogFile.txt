@@ -1,0 +1,25 @@
+﻿2017-12-04 11:48:07.740 -0600	START		Running Master.script
+2017-12-04 11:48:07.834 -0600	Log		Start Script	5	on_master	Master.script
+2017-12-04 11:48:07.850 -0600	startmovie		C:/Cerner Suite/eggPlant script.suite/Results/Master/20171204_114807.740/Opening Amazon.mkv	8	on_master	Master.script
+2017-12-04 11:48:07.865 -0600	imagefound	Chrome Icon	found at (40, 137)	10	on_master	Master.script
+2017-12-04 11:48:07.865 -0600	LogSuccess		Found it	11	on_master	Master.script
+2017-12-04 11:48:08.068 -0600	doubleclick	Chrome Icon	at (40, 137)	17	on_master	Master.script
+2017-12-04 11:48:10.006 -0600	click	Refresh Icon	at (172, 48)	18	on_master	Master.script
+2017-12-04 11:48:11.272 -0600	typetext		www.amazon.com[returnKey]	19	on_master	Master.script
+2017-12-04 11:48:12.022 -0600	typetext		[returnKey]	20	on_master	Master.script
+2017-12-04 11:48:13.162 -0600	waitfor	Amazon search	found at (574, 171)	21	on_master	Master.script
+2017-12-04 11:48:13.178 -0600	Log		Amazon has been open	22	on_master	Master.script
+2017-12-04 11:48:13.178 -0600	BeginTestCase		Amazon Open	25	on_master	Master.script
+2017-12-04 11:48:13.350 -0600	click	Department Drop down	at (214, 176)	26	on_master	Master.script
+2017-12-04 11:48:14.100 -0600	typetext		[pageDown]	27	on_master	Master.script
+2017-12-04 11:48:14.850 -0600	typetext		[pageDown]	28	on_master	Master.script
+2017-12-04 11:48:16.256 -0600	click	MoviesTV	at (240, 539)	29	on_master	Master.script
+2017-12-04 11:48:17.631 -0600	click	MoviesTV_search	at (317, 173)	30	on_master	Master.script
+2017-12-04 11:48:17.631 -0600	EndTestCase		(Duration:"4.453", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 11:48:13 -0600", Successes:"0", TestCase:"Amazon Open", Warnings:"0")	31	on_master	Master.script
+2017-12-04 11:48:19.287 -0600	typetext		The Big Bang Theory-seasons[returnKey]	33	on_master	Master.script
+2017-12-04 11:48:20.866 -0600	click	Format-DVD	at (336, 354)	34	on_master	Master.script
+2017-12-04 11:48:22.803 -0600	click	10 Edition	at (336, 455)	35	on_master	Master.script
+2017-12-04 11:48:25.631 -0600	click	DVD-2 instance	at (628, 659)	36	on_master	Master.script
+2017-12-04 11:48:25.756 -0600	capturescreen	Seach successful.png		37	on_master	Master.script
+2017-12-04 11:48:26.131 -0600	EndTestCase		(Duration:"18.375", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 11:48:07 -0600", Successes:"1", TestCase:"Master.script", Warnings:"0")
+2017-12-04 11:48:26.178 -0600	SUCCESS		Execution Time 0:00:19 Master.script

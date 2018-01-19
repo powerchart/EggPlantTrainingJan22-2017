@@ -1,0 +1,200 @@
+﻿<?xml version="1.0"?>
+<runHistory script="CSV and encoding">
+ <run>
+  <RunDate>2017-12-14 15:20:50.014 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.469000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171214_152050.014/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:21:16.746 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.438000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171214_152116.746/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:23:14.209 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.500000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171214_152314.209/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:29:53.186 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.000000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171214_152953.186/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in csv_and_encoding:
+Syntax Error at line 31: Syntax Error - can&#x27;t understand [end of script] at or near character 763</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:31:05.908 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.015000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171214_153105.908/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in csv_and_encoding:
+Syntax Error at line 28: Syntax Error - can&#x27;t understand [end of script] at or near character 737</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:31:29.257 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.000000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171214_153129.257/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in csv_and_encoding:
+Syntax Error at line 13: Syntax Error - can&#x27;t understand [end of script] at or near character 424</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:31:48.601 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.000000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171214_153148.601/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in csv_and_encoding:
+Syntax Error at line 13: Syntax Error - can&#x27;t understand [end of script] at or near character 425</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:32:07.449 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.000000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171214_153207.449/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in csv_and_encoding:
+Syntax Error at line 13: Syntax Error - can&#x27;t understand [end of script] at or near character 393</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:32:55.063 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.438000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171214_153255.063/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:34:19.194 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.422000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171214_153419.194/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:34:40.055 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.438000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171214_153440.055/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:35:12.251 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.438000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171214_153512.251/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-14 15:35:27.304 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.407000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171214_153527.304/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-15 09:08:10.421 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.532000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171215_090810.421/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-15 09:09:32.251 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.468000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171215_090932.251/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-15 09:15:42.563 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.530000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171215_091542.563/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

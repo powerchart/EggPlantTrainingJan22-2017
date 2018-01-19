@@ -1,0 +1,6 @@
+﻿2017-12-04 11:47:34.974 -0600	START		Running Master.script
+2017-12-04 11:47:35.083 -0600	Log		Start Script	5	on_master	Master.script
+2017-12-04 11:47:35.083 -0600	startmovie		C:/Cerner Suite/eggPlant script.suite/Results/Master/20171204_114734.974/Opening Amazon.mkv	8	on_master	Master.script
+2017-12-04 11:47:35.099 -0600	Exception	Chrome	Could Not Open Image: Chrome	10	on_master	Master.script
+2017-12-04 11:47:35.661 -0600	EndTestCase		(Duration:"0.657", Errors:"1", Exceptions:"1", StartTime:"2017-12-04 11:47:34 -0600", Successes:"0", TestCase:"Master.script", Warnings:"0")
+2017-12-04 11:47:35.802 -0600	FAILURE	Screen_Error.png	File Not Found imagefound Error - Could Not Open Image: Chrome -- Execution Time 0:00:01 Master.script

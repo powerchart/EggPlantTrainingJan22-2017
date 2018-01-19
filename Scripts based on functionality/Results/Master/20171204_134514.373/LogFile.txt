@@ -1,0 +1,7 @@
+﻿2017-12-04 13:45:14.373 -0600	START		Running Master.script
+2017-12-04 13:45:14.545 -0600	Log		Start Script	5	on_amazon	Amazon.script
+2017-12-04 13:45:16.873 -0600	imagefound	Chrome Icon	Unable to Find Image Chrome Icon	10	on_amazon	Amazon.script
+2017-12-04 13:45:16.873 -0600	LogWarning		Unable to find required image	13	on_amazon	Amazon.script
+2017-12-04 13:45:31.206 -0600	Exception	Chrome Icon	No Image Found On Screen: "Chrome Icon"	17	on_amazon	Amazon.script
+2017-12-04 13:45:31.284 -0600	EndTestCase		(Duration:"16.911", Errors:"1", Exceptions:"1", StartTime:"2017-12-04 13:45:14 -0600", Successes:"0", TestCase:"Master.script", Warnings:"1")
+2017-12-04 13:45:31.284 -0600	ABORTED		Execution Time 0:00:17 Master.script

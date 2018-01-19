@@ -1,0 +1,11 @@
+﻿2017-12-11 12:57:52.014 -0600	START		Running Test script 2.script
+2017-12-11 12:57:52.077 -0600	Log		Start Script	5	on_test_script_2	Test script 2.script
+2017-12-11 12:57:52.092 -0600	imagefound	Chrome Icon	found at (40, 137)	9	on_test_script_2	Test script 2.script
+2017-12-11 12:57:52.092 -0600	LogSuccess		Found it	10	on_test_script_2	Test script 2.script
+2017-12-11 12:57:52.264 -0600	doubleclick	Chrome Icon	at (40, 137)	16	on_test_script_2	Test script 2.script
+2017-12-11 12:57:54.296 -0600	click	Refresh Icon	at (197, 83)	17	on_test_script_2	Test script 2.script
+2017-12-11 12:57:55.646 -0600	typetext		www.WikiPedia.com[returnKey]	18	on_test_script_2	Test script 2.script
+2017-12-11 12:58:02.527 -0600	typetext		The Big Bang Theory season	21	on_test_script_2	Test script 2.script
+2017-12-11 12:58:08.560 -0600	typetext		[returnKey]	24	on_test_script_2	Test script 2.script
+2017-12-11 12:58:09.325 -0600	EndTestCase		(Duration:"17.296", Errors:"1", Exceptions:"0", StartTime:"2017-12-11 12:57:52 -0600", Successes:"1", TestCase:"Test script 2.script", Warnings:"0")
+2017-12-11 12:58:09.325 -0600	ABORTED		Execution Time 0:00:18 Test script 2.script

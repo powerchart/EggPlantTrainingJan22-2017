@@ -1,0 +1,5 @@
+﻿2017-12-14 10:07:27.751 -0600	START		Running HL7.script
+2017-12-14 10:07:28.251 -0600	typetext		controllKeyf	5	on_hl7	HL7.script
+2017-12-14 10:07:30.141 -0600	typetext		<updateStrategy>M</updateStrategy>	6	on_hl7	HL7.script
+2017-12-14 10:07:30.438 -0600	EndTestCase		(Duration:"2.672", Errors:"0", Exceptions:"0", StartTime:"2017-12-14 10:07:27 -0600", Successes:"1", TestCase:"HL7.script", Warnings:"0")
+2017-12-14 10:07:30.469 -0600	SUCCESS		Execution Time 0:00:03 HL7.script

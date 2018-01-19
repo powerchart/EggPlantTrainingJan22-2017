@@ -1,0 +1,11 @@
+﻿2017-12-14 11:32:59.247 -0600	START		Running HL7.script
+2017-12-14 11:33:06.099 -0600	imagefound	updatetrategyMupdatetrategy	Unable to Find Image updatetrategyMupdatetrategy	6	on_hl7	HL7.script
+2017-12-14 11:33:06.146 -0600	typetext		[pageDown]	7	on_hl7	HL7.script
+2017-12-14 11:33:07.416 -0600	imagefound	updatetrategyMupdatetrategy	found at (640, 157)	8	on_hl7	HL7.script
+2017-12-14 11:33:08.497 -0600	readtext		(640,157)
+2017-12-14 11:33:08.512 -0600	Log		<update$trategy>M</update$trategy>	12	on_hl7	HL7.script
+2017-12-14 11:33:08.512 -0600	LogWarning		update is needed	16	on_hl7	HL7.script
+2017-12-14 11:33:09.128 -0600	doubleclick	updatetrategyMupdatetrategy	at (640, 157)	18	on_hl7	HL7.script
+2017-12-14 11:33:10.415 -0600	typetext		xls_inbound_value	19	on_hl7	HL7.script
+2017-12-14 11:33:10.711 -0600	EndTestCase		(Duration:"11.449", Errors:"0", Exceptions:"0", StartTime:"2017-12-14 11:32:59 -0600", Successes:"1", TestCase:"HL7.script", Warnings:"1")
+2017-12-14 11:33:10.743 -0600	SUCCESS		Execution Time 0:00:11 HL7.script

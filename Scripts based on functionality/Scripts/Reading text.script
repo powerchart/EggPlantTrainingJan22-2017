@@ -1,0 +1,21 @@
+﻿put ReadText("TL","BR") into T_Value
+Log T_Value
+
+
+//Reading text on image location
+
+put imagelocation ("TL") into Point1
+put point1+ (77, 60) into Point2
+Log (point1,point2)
+
+
+//Reading OCR
+
+Put "The Tesla Recoil" into Episode_name
+put imagelocation (text: Episode_Name, searchRectangle:((332,69,568,718))) into EP
+Put EP+(810,-20) into point1
+
+Put EP+(810,-20) into point2
+Log ReadText (point1,point2)
+
+

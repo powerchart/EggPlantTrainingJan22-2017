@@ -1,0 +1,5 @@
+﻿2017-12-14 10:45:52.650 -0600	START		Running HL7.script
+2017-12-14 10:46:02.916 -0600	LogWarning		OCR Text read in search rect: mat yyyyMMddHHmmssZ\nilter □\ncflow
+2017-12-14 10:46:29.168 -0600	Exception	(TEXT:"<updateStrategy>M</updateStrategy>")	Unable To Find Image "(TEXT:"<updateStrategy>M</updateStrategy>")"	25	on_hl7	HL7.script
+2017-12-14 10:46:29.465 -0600	EndTestCase		(Duration:"36.815", Errors:"1", Exceptions:"1", StartTime:"2017-12-14 10:45:52 -0600", Successes:"0", TestCase:"HL7.script", Warnings:"1")
+2017-12-14 10:46:29.465 -0600	ABORTED		Execution Time 0:00:37 HL7.script

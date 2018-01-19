@@ -1,0 +1,5 @@
+﻿2017-12-04 13:18:47.303 -0600	START		Running Master.script
+2017-12-04 13:18:47.397 -0600	Log		Start Script	5	on_master	Master.script
+2017-12-04 13:18:47.397 -0600	Exception		Remote Connection Unavailable	10	on_master	Master.script
+2017-12-04 13:18:47.491 -0600	EndTestCase		(Duration:"0.172", Errors:"1", Exceptions:"1", StartTime:"2017-12-04 13:18:47 -0600", Successes:"0", TestCase:"Master.script", Warnings:"0")
+2017-12-04 13:18:47.553 -0600	FAILURE		No Remote Connection imagefound Error - Remote Connection Unavailable -- Execution Time 0:00:00 Master.script

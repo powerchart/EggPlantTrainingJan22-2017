@@ -1,0 +1,38 @@
+﻿//ADT A02 and A12
+
+//Verify xls inbound workflow is  set properly
+
+Put "<updateStrategy>M</updateStrategy>"into xls_inbound_value
+
+repeat until imagefound(text:"<updateStrategy>")
+	TypeText pagedown
+	
+end repeat 
+
+doubleclick FoundImageInfo()+(50,50)
+typetext xls_inbound_value
+
+(*
+put readtext(FoundImageInfo()) into  xls_inbound_found
+
+Log xls_inbound_found
+if xls_inbound_found equals xls_inbound_value then
+	LogSuccess ("xls inbound is set to required value")
+else
+	LogWarning "update is needed"
+	
+	
+	
+end if
+
+*)
+
+Click (text: "google")
+
+TypeText  controlKey,c
+Log RemoteClipboard()
+put RemoteClipboard()+"abc" into Var1
+typetext Var1
+
+
+

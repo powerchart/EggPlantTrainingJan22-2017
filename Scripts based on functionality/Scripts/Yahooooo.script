@@ -1,0 +1,6 @@
+﻿//put "john" into firstName
+//put "doe" into lastName
+put "Chrome Icon" into Browser
+put 30 into wait_for_value
+waitfor wait_for_value, Browser
+//it will wait for 30 seconds to load value"
