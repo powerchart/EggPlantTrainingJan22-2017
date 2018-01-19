@@ -1,0 +1,4 @@
+﻿2017-12-11 08:17:12.075 -0600	START		Running Day3/Script1.script
+2017-12-11 08:17:12.128 -0600	Log		global_var	3	on_day3_script1	Day3/Script1.script
+2017-12-11 08:17:12.244 -0600	EndTestCase		(Duration:"0.154", Errors:"0", Exceptions:"0", StartTime:"2017-12-11 08:17:12 -0600", Successes:"1", TestCase:"Day3/Script1.script", Warnings:"0")
+2017-12-11 08:17:12.297 -0600	SUCCESS		Execution Time 0:00:00 Day3/Script1.script

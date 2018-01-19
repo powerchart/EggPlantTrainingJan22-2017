@@ -1,0 +1,31 @@
+﻿//launching wikipedia
+
+DoubleClick "Day3/Chrome Image Collection/Day3_ChromeImage"
+
+waitfor 8,"Day3/Day 3 Class room script/Day3_NewTab"
+
+TypeText "www.wikipedia.org", returnkey
+
+waitfor 8,"Day3/Day 3 Class room script/Day3_RefreshIcon"
+
+typetext "The Big Bang Theory Season", returnkey
+
+
+click text:"List of the Big Bang Theory", searchRectangle:((181,278,1016,580))
+
+typetext controlkey & f
+
+typetext "The Tesla Recoil", returnkey
+
+click "Day3/Day 3 Class room script/Day3_CloseIcon"
+
+log ImageLocation(Text:"The Tesla Recoil",searchRectangle:((182,303,1017,605))) 
+
+
+(*
+put searchRectangle((182,303,1017,605))+(300,0)
+
+
+wait 2
+
+*)

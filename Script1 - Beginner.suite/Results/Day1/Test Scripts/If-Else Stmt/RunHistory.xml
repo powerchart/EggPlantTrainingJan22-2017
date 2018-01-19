@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<runHistory script="If-Else Stmt">
+ <run>
+  <RunDate>2017-12-04 23:12:14.331 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.016000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171204_231214.331/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in if_else_stmt:
+Syntax Error at line 11: Syntax Error - can&#x27;t understand [end of script] at or near character 204</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-04 23:14:37.563 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.000000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171204_231437.563/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in if_else_stmt:
+Syntax Error at line 11: Syntax Error - can&#x27;t understand [end of script] at or near character 204</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-04 23:15:11.954 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.000000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171204_231511.954/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in if_else_stmt:
+Syntax Error at line 11: Syntax Error - can&#x27;t understand [end of script] at or near character 205</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-04 23:16:45.683 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.169000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171204_231645.683/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Command: &#x27;logsucess&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-04 23:16:56.427 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.136000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171204_231656.427/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-04 23:17:08.445 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>4.635000</Duration>
+  <Errors>0</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171204_231708.445/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

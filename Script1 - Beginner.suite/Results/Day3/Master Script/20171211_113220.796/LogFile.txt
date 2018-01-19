@@ -1,0 +1,4 @@
+﻿2017-12-11 11:32:20.812 -0600	START		Running Day3/Master Script.script
+2017-12-11 11:32:20.946 -0600	Log		something	3	on_day3_global_varibales	Day3/Global Varibales.script
+2017-12-11 11:32:21.125 -0600	EndTestCase		(Duration:"0.311", Errors:"0", Exceptions:"0", StartTime:"2017-12-11 11:32:20 -0600", Successes:"1", TestCase:"Day3/Master Script.script", Warnings:"0")
+2017-12-11 11:32:21.163 -0600	SUCCESS		Execution Time 0:00:01 Day3/Master Script.script

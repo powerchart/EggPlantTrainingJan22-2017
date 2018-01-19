@@ -1,0 +1,13 @@
+﻿
+if ImageFound("Chrome Image/Chrome Icon")
+	logsuccess "found it"
+else 
+	if ImageFound("Chrome Image/Highlited Chrome")
+		LogSuccess "found if -highlited"
+		
+	else
+		logwarning "did not found it"
+		
+	end if
+	
+end if

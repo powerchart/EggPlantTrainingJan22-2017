@@ -1,0 +1,9 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-12-11 11:38:56.961 -0600,"Failure",0:00:01,1,0,1,"20171211_113856.961/LogFile.txt","","Error Running Script Command -- waitfor Error - Too Few Parameters, please use waitfor time, image1[, imageX]",0
+2017-12-11 11:40:24.251 -0600,"Failure",0:00:00,1,0,1,"20171211_114024.251/LogFile.txt","","Error Running Script Command -- waitfor Error - Too Few Parameters, please use waitfor time, image1[, imageX]",0
+2017-12-11 11:40:32.661 -0600,"Failure",0:00:00,1,0,1,"20171211_114032.661/LogFile.txt","","Error Running Script Command -- waitfor Error - Too Few Parameters, please use waitfor time, image1[, imageX]",0
+2017-12-11 11:41:25.254 -0600,"Success",0:00:03,0,0,0,"20171211_114125.254/LogFile.txt","","",1
+2017-12-11 11:45:51.509 -0600,"Success",0:00:04,0,0,0,"20171211_114551.509/LogFile.txt","","",1
+2017-12-11 12:32:30.157 -0600,"Success",0:00:05,0,0,0,"20171211_123230.157/LogFile.txt","","",1
+2017-12-11 12:33:32.365 -0600,"Success",0:00:10,0,0,0,"20171211_123332.365/LogFile.txt","","",1
+2017-12-11 12:34:48.734 -0600,"Success",0:00:10,0,0,0,"20171211_123448.734/LogFile.txt","","",1

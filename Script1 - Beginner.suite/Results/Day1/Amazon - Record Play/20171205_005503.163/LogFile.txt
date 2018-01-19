@@ -1,0 +1,7 @@
+﻿2017-12-05 00:55:03.181 +0530	START		Running Amazon - Record Play.script
+2017-12-05 00:55:03.401 +0530	doubleclick	image0001	at (37, 135)	8	on_amazon___record_play	Amazon - Record Play.script
+2017-12-05 00:55:05.019 +0530	click	image0003	at (126, 46)	9	on_amazon___record_play	Amazon - Record Play.script
+2017-12-05 00:55:06.436 +0530	typetext		https://amazon.com[returnKey]	10	on_amazon___record_play	Amazon - Record Play.script
+2017-12-05 00:55:30.464 +0530	Exception	AccountListsOrdersTtyPrime	No Image Found On Screen: "AccountListsOrdersTtyPrime"	11	on_amazon___record_play	Amazon - Record Play.script
+2017-12-05 00:55:30.579 +0530	EndTestCase		(Duration:"27.395", Errors:"1", Exceptions:"1", StartTime:"2017-12-05 00:55:03 +0530", Successes:"0", TestCase:"Amazon - Record Play.script", Warnings:"0")
+2017-12-05 00:55:30.802 +0530	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "AccountListsOrdersTtyPrime" -- Execution Time 0:00:27 Amazon - Record Play.script

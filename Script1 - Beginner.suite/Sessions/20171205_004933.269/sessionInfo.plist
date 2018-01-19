@@ -1,0 +1,36 @@
+{
+    commandList = "[{captureRect:[14, 608, 60, 654], command:@\"DoubleClick\", eventNum:2, hotSpot:[37, 135], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0001\", searchType:@\"Tolerant\", waitFor:@\"\"}, screenShotFile:@\"Screen0002.png\"}, {captureRect:[91, 707, 118, 736], command:@\"Click\", eventNum:6, hotSpot:[126, 46], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0003\", searchType:@\"Precise\", waitFor:@\"3.3\"}, screenShotFile:@\"Screen0006.png\", waitFor:@\"3.3\"}, {command:@\"TypeText\", eventNum:8, origText:@\"\\\"https:\\\"\", screenShotFile:@\"Screen0008.png\", text:@\"\\\"https://amazon.com\\\"\"}, {captureRect:[123, 707, 193, 737], command:@\"MoveTo\", eventNum:22, hotSpot:[158, 46], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"logsdevcemercomenUSappcernerde\", searchType:@\"Smooth\", waitFor:@\"\"}, OCRText:@\"://logs.devcemer.com/en-US/app/cerner_deviceworks/rdc_routing_log?earliest=0&latest\", screenShotFile:@\"Screen0022.png\", useOCR:@\"NO\"}, {command:@\"TypeText\", eventNum:23, screenShotFile:@\"Screen0023.png\", text:@\"\\\"//amazon.com\\\",Return\"}, {captureRect:[560, 529, 891, 546], command:@\"Click\", eventNum:49, hotSpot:[929, 225], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"AccountListsOrdersTtyPrime\", searchType:@\"Smooth\", waitFor:@\"\"}, OCRHotSpot:[369, 14], OCRText:@\"@ \\u25bc Account & Lists \\u25bc Orders Tty Prime \\u25bc\", screenShotFile:@\"Screen0049.png\", useOCR:@\"NO\"}, {captureRect:[221, 535, 297, 546], command:@\"Click\", eventNum:51, hotSpot:[249, 229], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0006\", searchType:@\"Tolerant\", waitFor:@\"3.8\"}, screenShotFile:@\"Screen0051.png\", waitFor:@\"3.8\"}, {captureRect:[0, 722, 46, 752], command:@\"Click\", eventNum:53, hotSpot:[35, 31], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0004\", searchType:@\"Tolerant\", waitFor:@\"\"}, screenShotFile:@\"Screen0053.png\"}, {captureRect:[10, 714, 25, 729], command:@\"Click\", eventNum:55, hotSpot:[15.177866, 45.487603], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0005\", searchType:@\"Tolerant\", waitFor:@\"\"}, screenShotFile:@\"Screen0055.png\"}, {captureRect:[947, 750, 1021, 768], command:@\"Click\", eventNum:57, hotSpot:[997, 10.578512], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0002\", searchType:@\"Tolerant\", waitFor:@\"\"}, screenShotFile:@\"Screen0057.png\"}]";
+    generatedCommands = (
+	"DoubleClick \"image0001\"",
+	"Click (Image:\"image0003\", WaitFor:3.3)",
+	"TypeText \"https://amazon.com\"",
+	"MoveTo \"logsdevcemercomenUSappcernerde\"",
+	"TypeText \"//amazon.com\",Return",
+	"Click \"AccountListsOrdersTtyPrime\"",
+	"Click (Image:\"image0006\", WaitFor:3.8)",
+	"Click \"image0004\"",
+	"Click \"image0005\"",
+	"Click \"image0002\""
+    );
+    locallyAddedFiles = {
+	"" = (
+	    "image0001.png",
+	    "image0002.png",
+	    "image0003.png",
+	    "image0004.png",
+	    "image0005.png",
+	    "image0006.png",
+	    "AccountListsOrdersTtyPrime.png",
+	    "image0001.png",
+	    "image0003.png",
+	    "logsdevcemercomenUSappcernerde.png",
+	    "AccountListsOrdersTtyPrime.png",
+	    "image0006.png",
+	    "image0004.png",
+	    "image0005.png",
+	    "image0002.png"
+	);
+    };
+    sessionType = turboSession;
+    unnamedImageCount = <*I0>;
+}

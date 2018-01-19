@@ -1,0 +1,94 @@
+﻿//Clicking using Text
+Click text:"Gmail"
+Click text:"SIGN"
+Click text:"NEXT"
+Click text:"Email or phone"
+
+//If there are same images in multiple screens we can apply list and click to select.
+
+log EveryImageLocation("EXPLORE")
+click item 2 of EveryImageLocation("EXPLORE")
+
+
+//Specifying the area for searching the text.
+//to get the x and y cororidnates of a rectnage area
+//Hightlight the are and use Edit->copy to ge the coordinates and do Edit paste in Script area to paste the coordinates.
+
+click image:"EXPLORE", searchRectangle:(96,15,840,322)
+
+click text:"EXPLORE", searchRectangle:(96,15,840,322)
+
+//Searching between the images
+
+put ImageLocation("MixImage") into xy1
+put ImageLocation("CatsImage") into xy2
+
+click image:"DogImage",searchRectangle:(xy1,xy2)
+
+click "DogImage"
+
+click image:"DogImage",searchRectangle:("MixImage","CatsImage")
+
+//clicking text with in search rectangle
+
+click text:"cart",searchRectangle: (664,81,1009,244)
+
+
+click text:"try prime",searchRectangle: (664,81,1009,244)
+
+//reading the text
+
+
+log ReadText((664,81,1009,244))
+
+put readtext((20,234,500,590)) into var1
+log var1
+
+
+log readtext((155,190,850,546))
+
+
+
+
+//reading text and comparing or reading text from multiple pages.
+
+put EveryImageLocation("Dollar3") into var
+log var
+//put (item 1 of var,(item 1 of var+(0,45))) into rr
+//log rr
+put the number of items of var into max
+
+repeat max times
+	put (item 1 of var,(item 1 of var+(55,45))) into rr
+	log readtext(rr)
+	wait 2
+end repeat
+
+
+put ((172,532),(215,553)) into rr
+put readtext(rr) into price
+log price
+(178,521,215,553)
+
+
+
+log ReadText((198,525,242,563))
+
+
+
+//Repeat index
+
+put EveryImageLocation("Dollar3") into var
+put the number of items of var into max
+log max
+
+repeat max times
+	insert item repeatindex() of var into rr
+	insert item repeatindex() of var+(55,45) into rr
+	put readtext(rr) into price
+	log price
+	wait 2
+	put () into rr
+end repeat
+
+

@@ -1,0 +1,51 @@
+﻿Solution,Solution Details,Test REV JIRA,JIRA Status,VR Type,VR Name
+Physician Documentation,PowerNote,TESTREV-271,Closed,VR,DOC-VR-PN-Macro - Create
+Physician Documentation,PowerNote,TESTREV-271,Closed,VR,DOC-VR-PN-Macro - Insert
+Physician Documentation,PowerNote,TESTREV-327,Closed,SBET,DOC-SBET-SCDKE-Encounter Pathway – Auto Recovery
+Physician Documentation,PowerNote,TESTREV-327,Closed,VR,DOC-VR-SCDKE- Encounter Pathway - Creation
+Physician Documentation,PowerNote,TESTREV-327,Closed,SBET,DOC-SBET-SCDKE-Encounter Pathway – Term Definition
+Physician Documentation,PowerNote,TESTREV-377,Closed,SBET,DOC-SBET-PN-Smart Template – Associated to Terms
+Physician Documentation,PowerNote,TESTREV-396,Closed,VR,DOC-VR-PN-PowerNote Query Builder
+Physician Documentation,PowerNote,TESTREV-483,Closed,VR,DOC-VR-PN-Copy Forward Note - Free Text
+Physician Documentation,PowerNote,TESTREV-484,Closed,SBET,DOC-SBET-PN-Display Filter – All
+Physician Documentation,PowerNote,TESTREV-818,Closed,SBET,DOC-SBET-PN-Workflow MPages - Favorite Icon
+Physician Documentation,PowerNote,TESTREV-853,Closed,UI,DOC-UI-PN-Functionality Is No Longer Available-Dialog Box
+Physician Documentation,PowerNote,TESTREV-853,Closed,UI,DOC-UI-PN-Medications Or Unsigned Prescriptions Not Included In Note Message
+Physician Documentation,PowerNote,TESTREV-853,Closed,UI,DOC-UI-SCDKE-Med Profile Term Not Supported-Dialog Box
+Physician Documentation,PowerNote,TESTREV-853,Closed,UI,DOC-UI-SCDKE-Medications Term Not Supported-Dialog Box
+Physician Documentation,PowerNote,TESTREV-853,Closed,UI,DOC-UI-SCDKE-Prescription Term Not Supported-Dialog Box
+Physician Documentation,PowerNote,TESTREV-918,Closed,VR,DOC-VR-PN-Full Screen - Close Icon
+Physician Documentation,PowerNote,TESTREV-920,Closed,SBET,DOC-SBET-PN-Paragraph - Indentation
+Physician Documentation,PowerNote,TESTREV-995,Open,VR,DOC-VR-PN-Documenting - Order Term
+Physician Documentation,PowerNote,TESTREV-995,Open,VR,DOC-VR-PN-Cache Builder
+Physician Documentation,PowerNote,TESTREV-995,Open,VR,DOC-VR-PN-DiffTool
+Physician Documentation,PowerNote,TESTREV-995,Open,VR, DOC-VR-PN-Export Import
+Physician Documentation,PowerNote,TESTREV-995,Open,VR, DOC-VR-PN-Import Export- Extended ASCII Characters.
+Physician Documentation,PowerNote,TESTREV-1106,Open,VR,DOC-VR-PN-Title Change-Inprogress and Auth Note.
+Physician Documentation,PowerNote,TESTREV-1154,Open,VR,DOC-VR-PN-Sign Submit and Modify Document – Document Viewing
+Physician Documentation,PowerNote,TESTREV-1154,Open,VR,DOC-VR-PN-Sign Submit and Modify Document – PN Tired
+Physician Documentation,PowerNote,TESTREV-1287,Open,VR,DOC-VR-PN-SLA Timers
+Physician Documentation,PowerNote,TESTREV-1287,Open,VR,DOC-VR-PN-Existing tab
+Physician Documentation,PowerNote,TESTREV-1287,Open,VR,DOC-VR-PN-Save and Submit Document
+Physician Documentation,PowerNote,TESTREV-1287,Open,SBET,DOC-SBET-PN-USR PN DISPLAY DRAWING DIALOG Timer - Intermediate Time 
+Physician Documentation,PowerNote,TESTREV-1318,Open,SBET,DOC-SBET-PN-Mouse Hover - Term
+Physician Documentation,PowerNote,TESTREV-1420,Open,SBET,DOC-SBET-PN-Interactive View – Scroll Bar
+Physician Documentation,Clinical Notes,TESTREV-355,Closed,VR,DOC-VR-CN-Note Type - Sorting
+Physician Documentation,Clinical Notes,TESTREV-378,Closed,SBET,DOC-SBET-CN-Print – Manual Expedite
+Physician Documentation,Clinical Notes,TESTREV-481,Closed,VR,DOC-VR-CN-Text Formatting
+Physician Documentation,Clinical Notes,TESTREV-481,Closed,VR,DOC-VR-CN-Text Formatting - Inbox and Flowsheet
+Physician Documentation,Clinical Notes,TESTREV-482,Closed,VR,DOC-VR-CN-Printing Custom Template
+Physician Documentation,Clinical Notes,TESTREV-482,Closed,SBET,DOC-SBET-CN-Printing Custom Templates Inbox and Flowsheet
+Physician Documentation,Clinical Notes,TESTREV-516,Closed,SBET,DOC-SBET-CN-Copy Paste Text - Multiple Times
+Physician Documentation,Clinical Notes,TESTREV-621,Closed,VR,DOC-VR-CN-Full Screen 
+Physician Documentation,Clinical Notes,TESTREV-703,Closed,VR,DOC-VR-CN-Copy Paste - Text and Image 
+Physician Documentation,Clinical Notes,TESTREV-763,Closed,VR,DOC-VR-CN-Copy Paste – Note Details
+Physician Documentation,Clinical Notes,TESTREV-763,Closed,VR,DOC-VR-CN-ShortCuts
+Physician Documentation,Clinical Notes,TESTREV-832,Closed,SBET,DOC-SBET-CN-RTF Parsing and Printing
+Physician Documentation,Clinical Notes,TESTREV-832,Closed,SBET,DOC-SBET-CN-Note Header – Encounter Info
+Physician Documentation,Clinical Notes,TESTREV-980,Closed,VR,DOC-VR-CN-Print - Multiple Documents
+Physician Documentation,Clinical Notes,TESTREV-980,Closed,UI,DOC-UI -CN-Print - Multi Print dialog
+Physician Documentation,Clinical Notes,TESTREV-980,Closed,UI,DOC-UI -CN-Print - Print Document dialog
+Physician Documentation,Clinical Notes,TESTREV-996,Open,VR,DOC-VR-CN-Change Search Criteria - Index Defaults
+Physician Documentation,Clinical Notes,TESTREV-996,Open,VR,DOC-VR-CN-Change Search Criteria - Preview
+Physician Documentation,Clinical Notes,TESTREV-1103,Open,SBET,DOC-SBET-CN-ASCII Interface Document - Modify

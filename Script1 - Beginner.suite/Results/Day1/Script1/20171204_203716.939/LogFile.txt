@@ -1,0 +1,4 @@
+﻿2017-12-04 20:37:16.942 +0530	START		Running Script1.script
+2017-12-04 20:37:40.063 +0530	Exception	Chrome Icon	No Image Found On Screen: "Chrome Icon"	1	on_script1	Script1.script
+2017-12-04 20:37:40.128 +0530	EndTestCase		(Duration:"23.184", Errors:"1", Exceptions:"1", StartTime:"2017-12-04 20:37:16 +0530", Successes:"0", TestCase:"Script1.script", Warnings:"0")
+2017-12-04 20:37:40.280 +0530	FAILURE	Screen_Error.png	Image Not Found doubleclick Error - No Image Found On Screen: "Chrome Icon" -- Execution Time 0:00:24 Script1.script

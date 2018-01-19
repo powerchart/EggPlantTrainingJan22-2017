@@ -1,0 +1,33 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-12-04 20:26:49.392 +0530,"Success",0:00:00,0,0,0,"20171204_202649.392/LogFile.txt","","",1
+2017-12-04 20:37:16.939 +0530,"Failure",0:00:23,1,0,1,"20171204_203716.939/LogFile.txt","","Image Not Found -- doubleclick Error - No Image Found On Screen: ""Chrome Icon""",0
+2017-12-04 20:38:11.738 +0530,"Success",0:00:00,0,0,0,"20171204_203811.738/LogFile.txt","","",1
+2017-12-04 20:38:17.480 +0530,"Failure",0:00:23,1,0,1,"20171204_203817.480/LogFile.txt","","Image Not Found -- doubleclick Error - No Image Found On Screen: ""Chrome Icon""",0
+2017-12-04 20:39:13.668 +0530,"Success",0:00:00,0,0,0,"20171204_203913.668/LogFile.txt","","",1
+2017-12-04 20:42:31.410 +0530,"Running",0:00:00,0,0,0,"20171204_204231.410/LogFile.txt","","",0
+2017-12-04 20:42:54.149 +0530,"Success",0:00:02,0,0,0,"20171204_204254.149/LogFile.txt","","",1
+2017-12-04 20:46:25.594 +0530,"Success",0:00:04,0,0,0,"20171204_204625.594/LogFile.txt","","",1
+2017-12-04 20:46:50.927 +0530,"Success",0:00:03,0,0,0,"20171204_204650.927/LogFile.txt","","",1
+2017-12-04 20:54:40.442 +0530,"Failure",0:00:23,1,0,1,"20171204_205440.442/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Search Bar""",0
+2017-12-04 20:55:18.445 +0530,"Success",0:00:03,0,0,0,"20171204_205518.445/LogFile.txt","","",1
+2017-12-04 21:21:27.601 +0530,"Success",0:00:05,0,0,0,"20171204_212127.601/LogFile.txt","","",1
+2017-12-04 21:41:12.247 +0530,"Failure",0:00:26,1,0,1,"20171204_214112.247/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""MoviesTV_1""",0
+2017-12-04 21:41:55.373 +0530,"Failure",0:00:34,1,0,1,"20171204_214155.373/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""MoviesTV_1""",0
+2017-12-04 21:45:00.534 +0530,"Failure",0:00:31,1,0,1,"20171204_214500.534/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""MoviesTV_1""",0
+2017-12-04 21:45:54.424 +0530,"Failure",0:00:34,1,0,1,"20171204_214554.424/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""MoviesTV_1""",0
+2017-12-04 21:49:50.926 +0530,"Running",0:00:00,0,0,0,"20171204_214950.926/LogFile.txt","","",0
+2017-12-04 21:52:32.606 +0530,"Success",0:00:11,0,0,0,"20171204_215232.606/LogFile.txt","","",1
+2017-12-04 21:55:26.995 +0530,"Failure",0:00:41,1,0,1,"20171204_215526.995/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""TheBigBangTheoryTheCompleteTen""",0
+2017-12-04 21:59:57.348 +0530,"Running",0:00:00,0,0,0,"20171204_215957.348/LogFile.txt","","",0
+2017-12-04 22:00:55.682 +0530,"Running",0:00:00,0,0,0,"20171204_220055.682/LogFile.txt","","",0
+2017-12-04 22:01:57.644 +0530,"Running",0:00:00,0,0,0,"20171204_220157.644/LogFile.txt","","",0
+2017-12-04 22:04:14.276 +0530,"Success",0:00:23,0,0,0,"20171204_220414.276/LogFile.txt","","",1
+2017-12-04 22:38:11.431 +0530,"Failure",0:00:42,1,0,1,"20171204_223811.431/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""TheBigBangTheoryTheCompleteTen""",0
+2017-12-04 22:55:57.969 +0530,"Success",0:00:22,0,0,0,"20171204_225557.969/LogFile.txt","","",1
+2017-12-04 22:58:17.969 +0530,"Running",0:00:00,0,0,0,"20171204_225817.969/LogFile.txt","","",0
+2017-12-04 22:58:29.776 +0530,"Success",0:00:21,0,0,0,"20171204_225829.776/LogFile.txt","","",1
+2017-12-04 23:07:43.496 +0530,"Success",0:00:24,0,0,0,"20171204_230743.496/LogFile.txt","","",1
+2017-12-04 23:18:15.286 +0530,"Running",0:00:00,0,0,0,"20171204_231815.286/LogFile.txt","","",0
+2017-12-04 23:18:33.666 +0530,"Success",0:00:21,0,0,0,"20171204_231833.666/LogFile.txt","","",1
+2017-12-04 23:24:32.673 +0530,"Success",0:00:21,0,0,0,"20171204_232432.673/LogFile.txt","","",1
+2017-12-05 01:17:52.741 +0530,"Success",0:00:25,0,0,0,"20171205_011752.741/LogFile.txt","","",1

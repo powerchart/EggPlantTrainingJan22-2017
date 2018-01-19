@@ -1,0 +1,4 @@
+﻿2017-12-05 00:59:36.516 +0530	START		Running Untitled.script
+2017-12-05 00:59:51.220 +0530	Exception	image0007	No Image Found On Screen: "image0007"	8	on_untitled	Untitled.script
+2017-12-05 00:59:51.336 +0530	EndTestCase		(Duration:"14.82", Errors:"1", Exceptions:"1", StartTime:"2017-12-05 00:59:36 +0530", Successes:"0", TestCase:"Untitled.script", Warnings:"0")
+2017-12-05 00:59:51.336 +0530	ABORTED		Execution Time 0:00:15 Untitled.script

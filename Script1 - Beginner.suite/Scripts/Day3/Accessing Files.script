@@ -1,0 +1,182 @@
+﻿(* File Operations
+1. Reading from file. (Variables)
+2. Reading mutiple lines and log using repeatindex.
+3. Reading text from CSV
+*)
+
+
+(*******************************
+1. Accessing the basic file, Data deriven testing.
+********************************)
+
+//Reading from note pad
+put file ResourcePath("Test1.txt") into var
+log var
+
+
+//reading from excel.
+put file ResourcePath("Test2.xlsx") into var
+log var
+
+//reading from excel with 2003 versio.
+put file ResourcePath("Test3.xls") into var1
+
+
+//reading the text from MS Word having text, tables and images.
+put file ResourcePath("Sample text and table.docx") into var2
+
+(******************************************
+2. Reading the file with multiple lines of text and printing using repeatindex.
+*******************************************)
+
+
+put file ResourcePath("Test1.txt") into var
+put the number of lines  of var into count
+log count
+//log line 3 of var
+//using Put for repeat index.
+repeat count times
+	put line repeatindex() of var into rr
+	log rr
+end repeat
+
+//using insert for repeat index.
+typetext enterKey
+log "Loop using the index with repeatindex "
+typetext enterKey
+repeat count times
+	put line repeatindex() of var into rr
+	log rr
+	put "" into rr
+end repeat
+
+
+(**************************
+3. Reading text from CSV file
+
+Note:
+--------------------------------------
+All columns are called as Items 
+All Rows are called as Lines
+
+Syntax while accessing is 
+item <column number> of line <row number> of <list>
+-----------------------------------------------------------
+4. Writing to the file.
+
+******************************)
+
+
+//Reading the file and logging one value
+
+put file ResourcePath("Data.csv") into data_list
+//log data_list
+log item 3 of line 1 of data_list
+
+
+//Reading the file and logging whole column
+
+
+put file ResourcePath("Data.csv") into data_list
+put (the number of lines of data_list)-1 into LineCount
+put the number of items of line 1 of data_list into ColumnCount
+log "Row Count:" , LineCount
+log "Column Count:", ColumnCount
+put 0 into flag
+Repeat LineCount times
+	put line (repeatIndex()+1) of data_list into patientinfo
+	Repeat ColumnCount times
+		put item repeatIndex() of patientinfo into value
+		//log value
+		if repeatindex() equal 6
+			if value contains "DOC-VR-CN-Text Formatting"
+				LogSuccess "Item Foud"
+				put 1 into flag
+				exit repeat
+			end if
+		end if
+	End repeat
+	if flag equal 1
+		Exit repeat
+	end if
+End repeat
+
+//Not working -- need to find a way to use repeatindex more efficiently.
+
+put file ResourcePath("Data.csv") into data_list
+put (the number of lines of data_list)-1 into LineCount
+put the number of items of line 1 of data_list into ColumnCount
+log "Row Count:" , LineCount
+log "Column Count:", ColumnCount
+Repeat LineCount times
+	put line (repeatIndex()+1) of data_list into patientinfo
+	Repeat ColumnCount times
+		put item repeatIndex() of patientinfo into value
+		log repeatIndex()
+	end repeat
+End repeat
+
+
+
+(*  Try catch *)
+
+try
+	log "try block statments"
+	
+catch exception
+	
+	log " exception"
+	
+end try
+
+
+//Write text to the notepad file.
+
+put file ResourcePath("Test1.txt") into TxtFile
+
+Log "**Text before updating**"
+log TxtFile
+
+put ResourcePath("Test1.txt") into TxtFile
+
+open file TxtFile for readWrite
+put "New line text5" into NewValue
+write return to file TxtFile at eof
+write NewValue to file TxtFile
+
+close file TxtFile
+
+put file ResourcePath("Test1.txt") into TxtFile
+Log "**Text After updating**"
+log TxtFile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

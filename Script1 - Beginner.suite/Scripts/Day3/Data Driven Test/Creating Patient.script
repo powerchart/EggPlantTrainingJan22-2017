@@ -1,0 +1,4 @@
+﻿//Accessing the file content
+
+put file ResourcePath("Data Driven Test.csv") into Patient_Info
+log Patient_Info

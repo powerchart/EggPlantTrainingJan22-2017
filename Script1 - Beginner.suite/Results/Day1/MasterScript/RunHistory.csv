@@ -1,0 +1,2 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-12-05 01:10:56.357 +0530,"Failure",0:00:45,1,0,1,"20171205_011056.357/LogFile.txt","","Image Not Found -- doubleclick Error - No Image Found On Screen: ""image0001""",0

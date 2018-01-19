@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Day3/Master Script">
+ <run>
+  <RunDate>2017-12-11 11:31:59.089 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.016000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171211_113159.089/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in day3_master_script:
+Syntax Error at line 3: Syntax Error - can&#x27;t understand &quot;/&quot; at or near character 39</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-11 11:32:20.796 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.326000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171211_113220.796/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

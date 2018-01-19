@@ -1,0 +1,10 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2017-12-05 19:52:30.127 +0530,"Success",0:00:01,0,0,0,"20171205_195230.127/LogFile.txt","","",1
+2017-12-05 19:52:56.462 +0530,"Success",0:00:02,0,0,0,"20171205_195256.462/LogFile.txt","","",1
+2017-12-05 19:53:21.661 +0530,"Failure",0:00:01,1,0,0,"20171205_195321.661/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'duration'",0
+2017-12-05 19:54:06.303 +0530,"Failure",0:00:01,1,0,0,"20171205_195406.303/LogFile.txt","","Unknown Property or Function -- Unable to access global property or function 'RETURN'",0
+2017-12-05 19:57:48.120 +0530,"Success",0:00:04,0,0,0,"20171205_195748.120/LogFile.txt","","",1
+2017-12-05 20:00:28.884 +0530,"Success",0:00:04,0,0,0,"20171205_200028.884/LogFile.txt","","",1
+2017-12-05 20:04:58.389 +0530,"Success",0:00:05,0,0,0,"20171205_200458.389/LogFile.txt","","",1
+2017-12-05 20:10:43.826 +0530,"Success",0:00:06,0,0,0,"20171205_201043.826/LogFile.txt","","",1
+2017-12-05 20:11:07.177 +0530,"Success",0:00:06,0,0,0,"20171205_201107.177/LogFile.txt","","",1

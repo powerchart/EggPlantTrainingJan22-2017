@@ -1,0 +1,25 @@
+﻿(*Method definitation and decelartion
+1. On statements 
+     -> On Statments wont return any value.
+2. To Statements
+     -> It can return value or blank too
+3. Function statements
+     -> Returs the value.
+
+*)
+
+on house
+	log "entering the house"
+end house
+
+on door
+	log "Open the door"
+end door
+
+on look_for_somthing
+	log "looking for something"
+end look_for_somthing
+
+on runway
+	log "we are out"
+end runway

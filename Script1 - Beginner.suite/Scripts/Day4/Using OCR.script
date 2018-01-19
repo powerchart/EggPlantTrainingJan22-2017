@@ -1,0 +1,24 @@
+﻿
+
+put "The Tesla Recoil" into Episode_name
+
+
+
+put imagelocation (Text:Episode_name,searchrectangle:((288,103,431,729))) into point1
+
+log point1
+
+moveto point1
+
+put point1+(570,-20) into point2
+
+log ReadText(point1,point2)
+
+
+
+
+
+
+//***************
+
+

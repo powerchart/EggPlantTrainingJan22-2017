@@ -1,0 +1,6 @@
+﻿2017-12-04 23:23:44.347 +0530	START		Running Mouse Over.script
+2017-12-04 23:23:44.463 +0530	moveto	Departments_1	at (70, 225)	1	on_mouse_over	Mouse Over.script
+2017-12-04 23:23:45.333 +0530	moveto	EchoAlexa	at (70, 329)	2	on_mouse_over	Mouse Over.script
+2017-12-04 23:23:46.303 +0530	click	EchoDot	at (305, 361)	3	on_mouse_over	Mouse Over.script
+2017-12-04 23:23:46.487 +0530	EndTestCase		(Duration:"2.14", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 23:23:44 +0530", Successes:"1", TestCase:"Mouse Over.script", Warnings:"0")
+2017-12-04 23:23:46.666 +0530	SUCCESS		Execution Time 0:00:02 Mouse Over.script

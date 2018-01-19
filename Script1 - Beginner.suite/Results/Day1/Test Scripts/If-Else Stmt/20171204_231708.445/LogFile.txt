@@ -1,0 +1,6 @@
+﻿2017-12-04 23:17:08.461 +0530	START		Running If-Else Stmt.script
+2017-12-04 23:17:10.726 +0530	imagefound	Chrome Image/Chrome Icon	Unable to Find Image Chrome Image/Chrome Icon	2	on_if_else_stmt	If-Else Stmt.script
+2017-12-04 23:17:12.996 +0530	imagefound	Chrome Image/Highlited Chrome	Unable to Find Image Chrome Image/Highlited Chrome	5	on_if_else_stmt	If-Else Stmt.script
+2017-12-04 23:17:12.996 +0530	LogWarning		did not found it	9	on_if_else_stmt	If-Else Stmt.script
+2017-12-04 23:17:13.080 +0530	EndTestCase		(Duration:"4.619", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 23:17:08 +0530", Successes:"1", TestCase:"If-Else Stmt.script", Warnings:"1")
+2017-12-04 23:17:13.111 +0530	SUCCESS		Execution Time 0:00:05 If-Else Stmt.script

@@ -1,0 +1,32 @@
+{
+    commandList = "[{captureRect:[23, 616, 50, 651], command:@\"DoubleClick\", eventNum:2, hotSpot:[37, 135], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0007\", searchType:@\"Tolerant\", waitFor:@\"\"}, screenShotFile:@\"Screen0002.png\"}, {captureRect:[91, 707, 127, 734], command:@\"Click\", eventNum:6, hotSpot:[143, 48], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0008\", searchType:@\"Tolerant\", waitFor:@\"3.1\"}, screenShotFile:@\"Screen0006.png\", waitFor:@\"3.1\"}, {command:@\"TypeText\", eventNum:8, origText:@\"\\\"https:\\\"\", screenShotFile:@\"Screen0008.png\", text:@\"\\\"https://amazon.com\\\"\"}, {captureRect:[100, 711, 151, 729], command:@\"MoveTo\", eventNum:22, hotSpot:[132, 49], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"Dhttps\", searchType:@\"Smooth\", waitFor:@\"\"}, OCRText:@\"D https\", screenShotFile:@\"Screen0022.png\", useOCR:@\"NO\"}, {command:@\"TypeText\", eventNum:23, screenShotFile:@\"Screen0023.png\", text:@\"\\\"//amazon.com\\\",Return\"}, {captureRect:[605, 532, 728, 546], command:@\"Click\", eventNum:49, hotSpot:[717, 229], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"AccountLists\", searchType:@\"Smooth\", waitFor:@\"3.1\"}, OCRText:@\"Account & Lists \\u25bc\", screenShotFile:@\"Screen0049.png\", useOCR:@\"NO\", waitFor:@\"3.1\"}, {captureRect:[437, 499, 507, 529], command:@\"Click\", eventNum:51, hotSpot:[472, 254], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0009\", searchType:@\"Tolerant\", waitFor:@\"4.6\"}, screenShotFile:@\"Screen0051.png\", waitFor:@\"4.6\"}, {command:@\"TypeText\", eventNum:53, screenShotFile:@\"Screen0053.png\", text:@\"\\\"vinaya\\\",Backspace,\\\"kumarcv.bly\\\"\"}, {captureRect:[959, 750, 1021, 768], command:@\"Click\", eventNum:89, hotSpot:[1009, 8.46281], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0010\", searchType:@\"Tolerant\", waitFor:@\"\"}, screenShotFile:@\"Screen0089.png\"}]";
+    generatedCommands = (
+	"DoubleClick \"image0007\"",
+	"Click (Image:\"image0008\", WaitFor:3.1)",
+	"TypeText \"https://amazon.com\"",
+	"MoveTo \"Dhttps\"",
+	"TypeText \"//amazon.com\",Return",
+	"Click (Image:\"AccountLists\", WaitFor:3.1)",
+	"Click (Image:\"image0009\", WaitFor:4.6)",
+	"TypeText \"vinaya\",Backspace,\"kumarcv.bly\"",
+	"Click \"image0010\""
+    );
+    locallyAddedFiles = {
+	"" = (
+	    "image0007.png",
+	    "image0008.png",
+	    "Dhttps.png",
+	    "AccountLists.png",
+	    "image0007.png",
+	    "image0008.png",
+	    "Dhttps.png",
+	    "AccountLists.png",
+	    "image0009.png",
+	    "image0009.png",
+	    "image0010.png",
+	    "image0010.png"
+	);
+    };
+    sessionType = turboSession;
+    unnamedImageCount = <*I0>;
+}

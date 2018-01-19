@@ -1,0 +1,4 @@
+﻿2017-12-04 20:39:13.668 +0530	START		Running Script1.script
+2017-12-04 20:39:13.915 +0530	doubleclick	Chrome Icon	at (37, 135)	1	on_script1	Script1.script
+2017-12-04 20:39:14.021 +0530	EndTestCase		(Duration:"0.352", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 20:39:13 +0530", Successes:"1", TestCase:"Script1.script", Warnings:"0")
+2017-12-04 20:39:14.053 +0530	SUCCESS		Execution Time 0:00:01 Script1.script

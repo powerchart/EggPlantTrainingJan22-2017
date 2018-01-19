@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Variables">
+ <run>
+  <RunDate>2017-12-05 19:52:30.127 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>1.742000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_195230.127/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 19:52:56.462 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.340000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_195256.462/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 19:53:21.661 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>1.700000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171205_195321.661/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Function: &#x27;duration&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 19:54:06.303 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>1.686000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171205_195406.303/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Unknown Property or Function -- Unable to access global property or function &#x27;RETURN&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 19:57:48.120 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>4.109000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_195748.120/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 20:00:28.884 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>4.854000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_200028.884/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 20:04:58.389 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>5.666000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_200458.389/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 20:10:43.826 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>6.479000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_201043.826/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 20:11:07.177 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>6.419000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_201107.177/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

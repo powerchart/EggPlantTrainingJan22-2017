@@ -1,0 +1,9 @@
+﻿2017-12-04 21:21:27.601 +0530	START		Running Script1.script
+2017-12-04 21:21:27.669 +0530	Log		start script	4	on_script1	Script1.script
+2017-12-04 21:21:27.885 +0530	doubleclick	Chrome Icon	at (37, 135)	6	on_script1	Script1.script
+2017-12-04 21:21:30.603 +0530	click	Search Bar	at (140, 47)	7	on_script1	Script1.script
+2017-12-04 21:21:31.839 +0530	typetext		www.amazon.com[returnKey]	8	on_script1	Script1.script
+2017-12-04 21:21:33.310 +0530	waitfor	Amazon-Search Icon	found at (576, 174)	9	on_script1	Script1.script
+2017-12-04 21:21:33.326 +0530	Log		amazon has been open	11	on_script1	Script1.script
+2017-12-04 21:21:33.410 +0530	EndTestCase		(Duration:"5.809", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 21:21:27 +0530", Successes:"1", TestCase:"Script1.script", Warnings:"0")
+2017-12-04 21:21:33.457 +0530	SUCCESS		Execution Time 0:00:06 Script1.script

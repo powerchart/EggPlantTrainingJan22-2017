@@ -1,0 +1,4 @@
+﻿MoveTo "Departments_1"
+MoveTo "EchoAlexa"
+Click "EchoDot"
+

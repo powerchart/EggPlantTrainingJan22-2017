@@ -1,0 +1,3 @@
+﻿2017-12-11 11:31:59.089 -0600	START		Running Day3/Master Script.script
+2017-12-11 11:31:59.110 -0600	EndTestCase		(Duration:"-0", Errors:"1", Exceptions:"0", StartTime:"2017-12-11 11:31:59 -0600", Successes:"0", TestCase:"Day3/Master Script.script", Warnings:"0")
+2017-12-11 11:31:59.226 -0600	FAILURE	Screen_Error.png	SenseTalk Compiler Exception in day3_master_script:\nSyntax Error at line 3: Syntax Error - can't understand "/" at or near character 39 -- Execution Time 0:00:00 Day3/Master Script.script

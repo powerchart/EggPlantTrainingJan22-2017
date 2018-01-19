@@ -1,0 +1,35 @@
+﻿//accessing global var
+
+
+
+//repeat until
+
+Repeat until ImageFound(2,"CatsImage")
+	TypeText pageDown
+	log "pagging down"
+	
+	if ImageFound(2, "Day3/ConditionsofUse")
+		logwarning "Hit Down"
+		exit repeat
+	end if
+End repeat
+
+log FoundImageLocation() //used to lag the location of the previous image.
+
+click FoundImageInfo() //used to click on the image using the previous image identified.
+
+
+//readucing the search area using search rectangle.
+
+Repeat until ImageFound(2,image:"CatsImage",searchRectangle:(220,429,1006,726))
+	TypeText pageDown
+	log "pagging down"
+	
+	if ImageFound(2, "Day3/ConditionsofUse")
+		logwarning "Hit Down"
+		exit repeat
+	end if
+End repeat
+
+//clear text
+

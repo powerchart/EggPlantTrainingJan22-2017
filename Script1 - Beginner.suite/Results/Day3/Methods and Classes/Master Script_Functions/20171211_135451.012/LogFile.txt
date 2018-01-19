@@ -1,0 +1,5 @@
+﻿2017-12-11 13:54:51.012 -0600	START		Running Day3/Methods and Classes/Master Script_Functions.script
+2017-12-11 13:54:51.133 -0600	Log		entering the house	2	on_house	Day3/Methods and Classes/Method_Definitations.script
+2017-12-11 13:54:51.150 -0600	Log		Open the door	2	on_door	Day3/Methods and Classes/Method_Definitations.script
+2017-12-11 13:54:51.266 -0600	EndTestCase		(Duration:"0.254", Errors:"1", Exceptions:"0", StartTime:"2017-12-11 13:54:51 -0600", Successes:"0", TestCase:"Day3/Methods and Classes/Master Script_Functions.script", Warnings:"0")
+2017-12-11 13:54:51.397 -0600	FAILURE	Screen_Error.png	SRUN_BadValue Bad value for Object expression.  Looking for an object or script identifier, got 'Method_Definitations'. -- Execution Time 0:00:00 Day3/Methods and Classes/Master Script_Functions.script

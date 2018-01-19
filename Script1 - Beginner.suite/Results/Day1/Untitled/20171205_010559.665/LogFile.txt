@@ -1,0 +1,7 @@
+﻿2017-12-05 01:05:59.681 +0530	START		Running Untitled.script
+2017-12-05 01:05:59.950 +0530	doubleclick	image0007	at (37, 135)	8	on_untitled	Untitled.script
+2017-12-05 01:06:01.229 +0530	click	image0008	at (143, 48)	9	on_untitled	Untitled.script
+2017-12-05 01:06:02.685 +0530	typetext		https://amazon.com[return]	12	on_untitled	Untitled.script
+2017-12-05 01:06:27.174 +0530	Exception	AccountLists	No Image Found On Screen: "AccountLists"	13	on_untitled	Untitled.script
+2017-12-05 01:06:27.375 +0530	EndTestCase		(Duration:"27.694", Errors:"1", Exceptions:"1", StartTime:"2017-12-05 01:05:59 +0530", Successes:"0", TestCase:"Untitled.script", Warnings:"0")
+2017-12-05 01:06:27.597 +0530	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "AccountLists" -- Execution Time 0:00:28 Untitled.script

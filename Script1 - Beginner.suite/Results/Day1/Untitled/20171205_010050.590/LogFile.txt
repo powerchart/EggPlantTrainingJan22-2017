@@ -1,0 +1,10 @@
+﻿2017-12-05 01:00:50.590 +0530	START		Running Untitled.script
+2017-12-05 01:00:50.791 +0530	doubleclick	image0007	at (37, 135)	8	on_untitled	Untitled.script
+2017-12-05 01:00:52.092 +0530	click	image0008	at (143, 48)	9	on_untitled	Untitled.script
+2017-12-05 01:00:53.556 +0530	typetext		https://amazon.com[return]	12	on_untitled	Untitled.script
+2017-12-05 01:00:56.829 +0530	click	AccountLists	at (717, 229)	13	on_untitled	Untitled.script
+2017-12-05 01:01:00.783 +0530	click	image0009	at (408, 253)	14	on_untitled	Untitled.script
+2017-12-05 01:01:02.069 +0530	typetext		vinaya[backspace]kumarcv.bly	15	on_untitled	Untitled.script
+2017-12-05 01:01:02.955 +0530	click	image0010	at (1009, 8)	16	on_untitled	Untitled.script
+2017-12-05 01:01:03.218 +0530	EndTestCase		(Duration:"12.626", Errors:"0", Exceptions:"0", StartTime:"2017-12-05 01:00:50 +0530", Successes:"1", TestCase:"Untitled.script", Warnings:"0")
+2017-12-05 01:01:03.253 +0530	SUCCESS		Execution Time 0:00:13 Untitled.script

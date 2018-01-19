@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="If-Else Stmt.script" package="Script1 - Beginner.suite" timestamp="2017-12-04 23:17:08.445 +0530"
+ tests="1" successes="1" errors="0" time="4.635000">
+  <properties>
+   <property name="RunDate" value="2017-12-04 23:17:08.445 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="If-Else Stmt.script" assertions="1" successes="1" errors="0" time="4.619">
+  </testcase>
+ </testsuite>
+</testsuites>

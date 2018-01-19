@@ -1,0 +1,3 @@
+﻿2017-12-05 00:52:57.431 +0530	START		Running Amazon - Record Play.script
+2017-12-05 00:55:02.647 +0530	EndTestCase		(Duration:"125.216", Errors:"1", Exceptions:"0", StartTime:"2017-12-05 00:52:57 +0530", Successes:"0", TestCase:"Amazon - Record Play.script", Warnings:"0")
+2017-12-05 00:55:02.663 +0530	ABORTED		Execution Time 0:02:05 Amazon - Record Play.script
