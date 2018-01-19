@@ -1,5 +1,0 @@
-﻿2017-12-11 11:40:32.661 -0600	START		Running Day3/Day3 Class room script.script
-2017-12-11 11:40:32.898 -0600	doubleclick	Day3/Chrome Image Collection/Day3_ChromeImage	at (39, 134)	3	on_day3_day3_class_room_script	Day3/Day3 Class room script.script
-2017-12-11 11:40:32.898 -0600	Exception		Too Few Parameters, please use waitfor time, image1[, imageX]	5	on_day3_day3_class_room_script	Day3/Day3 Class room script.script
-2017-12-11 11:40:33.045 -0600	EndTestCase		(Duration:"0.384", Errors:"1", Exceptions:"1", StartTime:"2017-12-11 11:40:32 -0600", Successes:"0", TestCase:"Day3/Day3 Class room script.script", Warnings:"0")
-2017-12-11 11:40:33.135 -0600	FAILURE	Screen_Error.png	Error Running Script Command waitfor Error - Too Few Parameters, please use waitfor time, image1[, imageX] -- Execution Time 0:00:01 Day3/Day3 Class room script.script

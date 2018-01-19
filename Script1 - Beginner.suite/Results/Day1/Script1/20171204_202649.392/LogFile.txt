@@ -1,3 +1,0 @@
-﻿2017-12-04 20:26:49.407 +0530	START		Running Script1.script
-2017-12-04 20:26:49.529 +0530	EndTestCase		(Duration:"0.12", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 20:26:49 +0530", Successes:"1", TestCase:"Script1.script", Warnings:"0")
-2017-12-04 20:26:49.577 +0530	SUCCESS		Execution Time 0:00:00 Script1.script

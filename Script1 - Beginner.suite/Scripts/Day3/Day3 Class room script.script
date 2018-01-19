@@ -1,6 +1,6 @@
 ﻿//launching wikipedia
 
-DoubleClick "Day3/Chrome Image Collection/Day3_ChromeImage"
+DoubleClick "Day3/chrome Image Collection/Day3_chromeImage"
 
 waitfor 8,"Day3/Day 3 Class room script/Day3_NewTab"
 

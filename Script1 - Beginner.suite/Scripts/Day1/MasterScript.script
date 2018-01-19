@@ -1,6 +1,0 @@
-﻿Run "Script1"
-Run "Amazon Login"
-Run "Amazon - Record Play"
-Run "If-Else Stmt"
-
-RunWithNewResults "Script1"

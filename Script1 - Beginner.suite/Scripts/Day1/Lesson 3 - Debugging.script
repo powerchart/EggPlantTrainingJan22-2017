@@ -1,0 +1,16 @@
+﻿//testcases
+
+// running a script, running partial code
+//when to use wait(not recommended) and wait for
+//renaming images and scripts
+
+//Image update panel to be taught
+//Pause, step into, step over, step out
+
+PauseScript
+//breakpoints
+
+//Explain Results pane
+
+//Startmovie "Opening chrome"
+log "start script"

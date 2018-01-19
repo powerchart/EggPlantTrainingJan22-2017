@@ -1,6 +1,0 @@
-﻿2017-12-12 08:39:58.196 -0600	START		Running Day4/Using OCR.script
-2017-12-12 08:39:58.452 -0600	imagelocation	(TEXT:"The Tesla Recoil")	at (344, 610)	7	on_day4_using_ocr	Day4/Using OCR.script
-2017-12-12 08:39:58.454 -0600	Log		(344,610)	9	on_day4_using_ocr	Day4/Using OCR.script
-2017-12-12 08:39:58.457 -0600	Exception		Invalid Point (1144, 590) is off screen	11	on_day4_using_ocr	Day4/Using OCR.script
-2017-12-12 08:39:58.513 -0600	EndTestCase		(Duration:"0.312", Errors:"1", Exceptions:"1", StartTime:"2017-12-12 08:39:58 -0600", Successes:"0", TestCase:"Day4/Using OCR.script", Warnings:"0")
-2017-12-12 08:39:58.622 -0600	FAILURE	Screen_Error.png	Invalid Point moveto Error - Invalid Point (1144, 590) is off screen -- Execution Time 0:00:00 Day4/Using OCR.script

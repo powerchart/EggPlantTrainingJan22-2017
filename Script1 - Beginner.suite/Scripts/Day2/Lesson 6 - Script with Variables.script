@@ -1,0 +1,127 @@
+﻿put 2 into x
+TypeText x
+
+
+typetext returnkey
+
+put 2 into y
+typetext y
+
+
+//log the return.Duration
+
+put "John" into First_Name
+put "tyre" into Last_Name
+
+TypeText firstname
+
+TypeText returnkey
+
+TypeText First_Name
+
+typetext First_Name, "-" ,Last_Name
+
+//keyboard or controls in the variables.
+
+put controlkey & a into Select
+put deleteKey into Delete
+
+typetext Select, Delete
+
+
+//Varibale concatination.
+put "John" into First_Name
+put "tyre" into Last_Name
+
+typetext First_Name & " " & Last_Name
+
+typetext return
+
+typetext "My name" & ":" & First_Name & " " & Last_Name & "."
+
+
+//Launching chrome.
+
+put "chrome Image" into Browser
+
+DoubleClick Browser
+
+WaitFor 8, Browser
+
+//&& adds a space between the text.
+
+log "Logged into the" && Browser
+
+
+//Set command
+
+set browser to "chrome Image"
+DoubleClick browser
+
+
+
+//Conditional Statements
+
+set x to 8
+set y to 7
+
+if (x>y)
+	log "hello"
+	typetext "hello"
+else
+	log "goodbye"
+	typetext "goodbye"
+end if
+
+//List of values for a variable
+
+put ("banana","grapes","bread") into grocery_list
+
+TypeText "Full Grocery List: "
+typetext grocery_list
+
+typetext return
+
+TypeText "First Item in Grocery list:"
+typetext item 1 of grocery_list
+
+typetext return
+
+TypeText items 1 to 3 of grocery_list
+
+typetext return
+
+
+put (1,2,3,4,5,6,7) into grocery_list1
+TypeText items 1 to 3 of grocery_list1
+
+typetext return
+
+typetext item 1 of grocery_list && items 1 to 4 of grocery_list1
+
+TypeText return
+
+//To count list of items in the List.
+put (1,2,3,4,5,6,7) into grocery_list1
+TypeText "No of items in the Grocery list: " 
+put the number of items in grocery_list1 into count
+typetext count
+
+//Getting the value and storing into Variable.
+
+//Getting Image coordinates and storing.
+
+put ImageLocation("chrome Image") into xycord
+typetext xycord
+put item 1 of xycord into xcord
+log xcord
+put item 2 of xycord into ycord
+log ycord
+
+doubleclick (xcord, ycord)
+
+put ImageLocation(Text:"Bin") into textcord
+log textcord
+
+
+

@@ -1,4 +1,0 @@
-﻿2017-12-04 22:58:17.969 +0530	START		Running Script1.script
-2017-12-04 22:58:18.038 +0530	startmovie		C:/temp/New/KC Travel/eggPlant/Training/Script1 - Beginner.suite/Results/Script1/20171204_225817.969/Opening Chrome.mkv	4	on_script1	Script1.script
-2017-12-04 22:58:29.292 +0530	EndTestCase		(Duration:"11.308", Errors:"1", Exceptions:"0", StartTime:"2017-12-04 22:58:17 +0530", Successes:"0", TestCase:"Script1.script", Warnings:"0")
-2017-12-04 22:58:29.308 +0530	ABORTED		Execution Time 0:00:12 Script1.script

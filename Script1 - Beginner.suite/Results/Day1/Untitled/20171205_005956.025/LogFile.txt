@@ -1,7 +1,0 @@
-﻿2017-12-05 00:59:56.041 +0530	START		Running Untitled.script
-2017-12-05 00:59:56.289 +0530	doubleclick	image0007	at (37, 135)	8	on_untitled	Untitled.script
-2017-12-05 00:59:57.559 +0530	click	image0008	at (143, 48)	9	on_untitled	Untitled.script
-2017-12-05 00:59:58.491 +0530	typetext		https:	10	on_untitled	Untitled.script
-2017-12-05 00:59:58.513 +0530	Exception	https	Could Not Open Image: https	11	on_untitled	Untitled.script
-2017-12-05 00:59:58.714 +0530	EndTestCase		(Duration:"2.673", Errors:"1", Exceptions:"1", StartTime:"2017-12-05 00:59:56 +0530", Successes:"0", TestCase:"Untitled.script", Warnings:"0")
-2017-12-05 00:59:58.814 +0530	FAILURE	Screen_Error.png	File Not Found moveto Error - Could Not Open Image: https -- Execution Time 0:00:02 Untitled.script

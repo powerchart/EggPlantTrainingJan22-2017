@@ -1,7 +1,0 @@
-﻿2017-12-05 19:52:56.466 +0530	START		Running Variables.script
-2017-12-05 19:52:56.537 +0530	typetext		2	2	on_variables	Variables.script
-2017-12-05 19:52:57.255 +0530	typetext		[returnKey]	5	on_variables	Variables.script
-2017-12-05 19:52:57.972 +0530	typetext		2	8	on_variables	Variables.script
-2017-12-05 19:52:58.690 +0530	typetext		[return]	11	on_variables	Variables.script
-2017-12-05 19:52:58.802 +0530	EndTestCase		(Duration:"2.332", Errors:"0", Exceptions:"0", StartTime:"2017-12-05 19:52:56 +0530", Successes:"1", TestCase:"Variables.script", Warnings:"0")
-2017-12-05 19:52:58.844 +0530	SUCCESS		Execution Time 0:00:02 Variables.script

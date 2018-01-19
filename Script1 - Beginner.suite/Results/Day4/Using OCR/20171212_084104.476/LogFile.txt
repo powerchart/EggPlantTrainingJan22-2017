@@ -1,7 +1,0 @@
-﻿2017-12-12 08:41:04.481 -0600	START		Running Day4/Using OCR.script
-2017-12-12 08:41:04.832 -0600	imagelocation	(TEXT:"The Tesla Recoil")	at (344, 610)	7	on_day4_using_ocr	Day4/Using OCR.script
-2017-12-12 08:41:04.836 -0600	Log		(344,610)	9	on_day4_using_ocr	Day4/Using OCR.script
-2017-12-12 08:41:04.852 -0600	moveto		at (344, 610)	11	on_day4_using_ocr	Day4/Using OCR.script
-2017-12-12 08:41:05.564 -0600	moveto		at (994, 600)	13	on_day4_using_ocr	Day4/Using OCR.script
-2017-12-12 08:41:05.709 -0600	EndTestCase		(Duration:"1.222", Errors:"0", Exceptions:"0", StartTime:"2017-12-12 08:41:04 -0600", Successes:"1", TestCase:"Day4/Using OCR.script", Warnings:"0")
-2017-12-12 08:41:05.750 -0600	SUCCESS		Execution Time 0:00:01 Day4/Using OCR.script

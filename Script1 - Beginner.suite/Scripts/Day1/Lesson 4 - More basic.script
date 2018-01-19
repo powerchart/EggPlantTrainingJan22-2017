@@ -1,0 +1,49 @@
+﻿// generally used to check the time/performance for each test case
+
+BeginTestCase "Search"
+WaitFor 40, "Search Bar"
+EndTestCase "Search"
+
+//CaptureScreen - Importance of the CaptureScreen.
+
+CaptureScreen (Name: "Step1")
+
+//Movie - Another way of capture the actions in video format.
+//EggPlant support the inbuilt command to achieve the same.
+
+StartMovie "MovieName" //You can give the entire path(location)
+//StatementToTest
+Stopmovie
+
+//Logging
+//Q: Ask : whats the difference b/w Logerror and Logwarning.
+
+Log "Displays in Blue color"
+LogSuccess "Displays in Green Color"
+LogWarning "Displays in Orange Color"
+LogError "Displays in Red Color and stops the execution"
+
+//Image Collections
+//Creating the Folders in image pane, adding the Images
+//BestPractice while naming conventions.
+
+//If/Else/Statements
+
+if ImageFound("chrome Image/chrome Icon")
+	logsuccess "found it"
+else 
+	if ImageFound("chrome Image/Highlited chrome")
+		LogSuccess "found if -highlited"
+	else
+		logwarning "did not found it"
+	end if
+end if
+
+
+//Mini coding session to use if/else statements.
+
+
+
+
+
+

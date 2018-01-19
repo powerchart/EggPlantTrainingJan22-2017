@@ -1,4 +1,0 @@
-﻿//Getting screen resolution.
-
-put RemoteScreenSize() into var
-log var

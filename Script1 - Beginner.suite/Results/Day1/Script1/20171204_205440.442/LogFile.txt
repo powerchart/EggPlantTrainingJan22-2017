@@ -1,5 +1,0 @@
-﻿2017-12-04 20:54:40.442 +0530	START		Running Script1.script
-2017-12-04 20:54:40.689 +0530	doubleclick	Chrome Icon	at (37, 135)	1	on_script1	Script1.script
-2017-12-04 20:55:04.125 +0530	Exception	Search Bar	No Image Found On Screen: "Search Bar"	2	on_script1	Script1.script
-2017-12-04 20:55:04.288 +0530	EndTestCase		(Duration:"23.831", Errors:"1", Exceptions:"1", StartTime:"2017-12-04 20:54:40 +0530", Successes:"0", TestCase:"Script1.script", Warnings:"0")
-2017-12-04 20:55:04.388 +0530	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "Search Bar" -- Execution Time 0:00:24 Script1.script

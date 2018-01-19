@@ -1,1 +1,0 @@
-2017-12-04 23:15:11.954 +0530,Failure,0:00:00,1,0,0,20171204_231511.954/LogFile.txt,"","SenseTalk Compiler Exception -- in if_else_stmt:\nSyntax Error at line 11: Syntax Error - can't understand [end of script] at or near character 205",0

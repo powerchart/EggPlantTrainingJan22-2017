@@ -1,0 +1,48 @@
+﻿//Day 1
+
+--after Lesson 1
+
+//Best practices of capturing images
+//Images and Hotspot, relative hotspot
+// Search Types and tolerance images (park)
+
+//to teach all
+Click
+Typetext
+WaitFor 10, "Search Bar"
+--not recommended "WAIT"
+wait 5
+
+//assisted scripting to be taught using SUT
+
+//practice code - beginner
+DoubleClick "chrome Image"
+Click "Search Bar"
+TypeText "www.amazon.com", returnKey
+WaitFor 8.0, "Amazon-Search Icon"
+log "amazon has been open"
+
+//selecting department 
+Click "All_icon"
+TypeText pageDown
+TypeText pageDown
+Click "MoviesTV"
+Click "MoviesTV_2"
+
+// scroll and find the image in practice
+typetext"the Big Bang Theory - seasons", returnkey
+WaitFor 8.0, "MonkTheCompleteSeries"
+TypeText pageDown
+TypeText pageDown
+TypeText pageDown
+TypeText pageDown
+TypeText pageDown
+Click "TheBigBangTheoryTheCompleteTen"
+
+
+
+
+
+
+
+
