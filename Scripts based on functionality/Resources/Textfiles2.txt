@@ -1,0 +1,3 @@
+BBOXC=\\CR017933\\BBOXC, BBOXD=\\CR17933\\BBOXD
+Milk, Rice, Wheat, Bread, Tea, Sugar, Oil,Ghee, 
+Yogurt, butter, cheesee

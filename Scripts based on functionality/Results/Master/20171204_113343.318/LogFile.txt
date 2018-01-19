@@ -1,0 +1,23 @@
+﻿2017-12-04 11:33:43.318 -0600	START		Running Master.script
+2017-12-04 11:33:43.396 -0600	Log		Start Script	5	on_master	Master.script
+2017-12-04 11:33:43.396 -0600	startmovie		C:/Cerner Suite/eggPlant script.suite/Results/Master/20171204_113343.318/Opening Amazon.mkv	8	on_master	Master.script
+2017-12-04 11:33:43.599 -0600	doubleclick	Chrome Icon	at (40, 137)	12	on_master	Master.script
+2017-12-04 11:33:46.256 -0600	click	Refresh Icon	at (172, 48)	13	on_master	Master.script
+2017-12-04 11:33:47.443 -0600	typetext		www.amazon.com[returnKey]	14	on_master	Master.script
+2017-12-04 11:33:48.178 -0600	typetext		[returnKey]	15	on_master	Master.script
+2017-12-04 11:33:48.959 -0600	waitfor	Amazon search	found at (574, 171)	16	on_master	Master.script
+2017-12-04 11:33:48.959 -0600	Log		Amazon has been open	17	on_master	Master.script
+2017-12-04 11:33:48.975 -0600	BeginTestCase		Amazon Open	20	on_master	Master.script
+2017-12-04 11:33:49.209 -0600	click	Department Drop down	at (214, 176)	21	on_master	Master.script
+2017-12-04 11:33:49.943 -0600	typetext		[pageDown]	22	on_master	Master.script
+2017-12-04 11:33:50.693 -0600	typetext		[pageDown]	23	on_master	Master.script
+2017-12-04 11:33:52.506 -0600	click	MoviesTV	at (240, 539)	24	on_master	Master.script
+2017-12-04 11:33:53.787 -0600	click	MoviesTV_search	at (317, 173)	25	on_master	Master.script
+2017-12-04 11:33:53.787 -0600	EndTestCase		(Duration:"4.812", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 11:33:48 -0600", Successes:"0", TestCase:"Amazon Open", Warnings:"0")	26	on_master	Master.script
+2017-12-04 11:33:55.459 -0600	typetext		The Big Bang Theory-seasons[returnKey]	28	on_master	Master.script
+2017-12-04 11:33:57.615 -0600	click	Format-DVD	at (336, 354)	29	on_master	Master.script
+2017-12-04 11:33:59.600 -0600	click	10 Edition	at (336, 455)	30	on_master	Master.script
+2017-12-04 11:34:03.272 -0600	click	DVD-2 instance	at (628, 659)	31	on_master	Master.script
+2017-12-04 11:34:03.412 -0600	capturescreen	Seach successful.png		32	on_master	Master.script
+2017-12-04 11:34:03.881 -0600	EndTestCase		(Duration:"20.563", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 11:33:43 -0600", Successes:"1", TestCase:"Master.script", Warnings:"0")
+2017-12-04 11:34:03.912 -0600	SUCCESS		Execution Time 0:00:20 Master.script

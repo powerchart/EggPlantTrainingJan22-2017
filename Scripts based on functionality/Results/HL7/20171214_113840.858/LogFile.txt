@@ -1,0 +1,9 @@
+﻿2017-12-14 11:38:40.858 -0600	START		Running HL7.script
+2017-12-14 11:38:42.473 -0600	imagefound	updatetrategyMupdatetrategy	found at (625, 593)	7	on_hl7	HL7.script
+2017-12-14 11:38:44.369 -0600	readtext		(625,593)
+2017-12-14 11:38:44.369 -0600	Log		< u p d ate Strate gy > M </u p d ate Strate gy >	13	on_hl7	HL7.script
+2017-12-14 11:38:44.369 -0600	LogWarning		update is needed	17	on_hl7	HL7.script
+2017-12-14 11:38:46.078 -0600	doubleclick	updatetrategyMupdatetrategy	at (625, 593)	19	on_hl7	HL7.script
+2017-12-14 11:38:47.953 -0600	typetext		<updateStrategy>M</updateStrategy>	20	on_hl7	HL7.script
+2017-12-14 11:38:48.266 -0600	EndTestCase		(Duration:"7.408", Errors:"0", Exceptions:"0", StartTime:"2017-12-14 11:38:40 -0600", Successes:"1", TestCase:"HL7.script", Warnings:"1")
+2017-12-14 11:38:48.297 -0600	SUCCESS		Execution Time 0:00:08 HL7.script

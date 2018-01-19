@@ -1,0 +1,5 @@
+﻿2017-12-14 10:42:38.148 -0600	START		Running HL7.script
+2017-12-14 10:42:39.820 -0600	imagelocation	(TEXT:"<updateStrategy>M</updateStrategy>")	at (645, 411)	25	on_hl7	HL7.script
+2017-12-14 10:42:39.820 -0600	Log		(645,411)	26	on_hl7	HL7.script
+2017-12-14 10:42:40.133 -0600	EndTestCase		(Duration:"1.985", Errors:"0", Exceptions:"0", StartTime:"2017-12-14 10:42:38 -0600", Successes:"1", TestCase:"HL7.script", Warnings:"0")
+2017-12-14 10:42:40.164 -0600	SUCCESS		Execution Time 0:00:02 HL7.script

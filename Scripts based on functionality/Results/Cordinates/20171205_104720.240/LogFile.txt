@@ -1,0 +1,6 @@
+﻿2017-12-05 10:47:20.255 -0600	START		Running Cordinates.script
+2017-12-05 10:47:20.302 -0600	imagelocation	Folder	at (268, 340)	1	on_cordinates	Cordinates.script
+2017-12-05 10:47:20.427 -0600	click		at (268, 340)	2	on_cordinates	Cordinates.script
+2017-12-05 10:47:21.165 -0600	imagelocation	Folder	at (268, 340)	3	on_cordinates	Cordinates.script
+2017-12-05 10:47:21.275 -0600	EndTestCase		(Duration:"1.02", Errors:"0", Exceptions:"0", StartTime:"2017-12-05 10:47:20 -0600", Successes:"1", TestCase:"Cordinates.script", Warnings:"0")
+2017-12-05 10:47:21.321 -0600	SUCCESS		Execution Time 0:00:01 Cordinates.script

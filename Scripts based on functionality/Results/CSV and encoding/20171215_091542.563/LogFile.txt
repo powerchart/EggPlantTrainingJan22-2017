@@ -1,0 +1,11 @@
+﻿2017-12-15 09:15:42.563 -0600	START		Running CSV and encoding.script
+2017-12-15 09:15:42.672 -0600	Log		global Ip_Address,global Domain_Name,global  Domain_Folder,global DomainArchive_Folder,global Solution,Global Network_Username,global Network_Password\n10.162.144.103,C:\Users\Public\Desktop\iBus Deployments\DWXQA_BBOXC\iBusSolutionDeployer,\\dwxqalabsrv\qa\DWXQA_BBOXC,\\dwxqalabsrv\qa\Archive\DWXQA_BBOXC-Archive,capacity,CR017933,Q_cPYf)%t~!\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n,,,,,,\n	6	on_csv_and_encoding	CSV and encoding.script
+2017-12-15 09:15:42.672 -0600	Log		10.162.144.103	17	on_csv_and_encoding	CSV and encoding.script
+2017-12-15 09:15:42.688 -0600	Log		C:\Users\Public\Desktop\iBus Deployments\DWXQA_BBOXC\iBusSolutionDeployer	18	on_csv_and_encoding	CSV and encoding.script
+2017-12-15 09:15:42.688 -0600	Log		\\dwxqalabsrv\qa\DWXQA_BBOXC	19	on_csv_and_encoding	CSV and encoding.script
+2017-12-15 09:15:42.688 -0600	Log		\\dwxqalabsrv\qa\Archive\DWXQA_BBOXC-Archive	20	on_csv_and_encoding	CSV and encoding.script
+2017-12-15 09:15:42.688 -0600	Log		capacity	21	on_csv_and_encoding	CSV and encoding.script
+2017-12-15 09:15:42.703 -0600	Log		CR017933	22	on_csv_and_encoding	CSV and encoding.script
+2017-12-15 09:15:42.703 -0600	Log		Q_cPYf)%t~!	23	on_csv_and_encoding	CSV and encoding.script
+2017-12-15 09:15:43.093 -0600	EndTestCase		(Duration:"0.53", Errors:"0", Exceptions:"0", StartTime:"2017-12-15 09:15:42 -0600", Successes:"1", TestCase:"CSV and encoding.script", Warnings:"0")
+2017-12-15 09:15:43.124 -0600	SUCCESS		Execution Time 0:00:01 CSV and encoding.script

@@ -1,0 +1,28 @@
+﻿//To type different patient details from excel
+Put filePath ("PatientInformation.csv") into PatientData
+Put (the number of lines of Patientdata)-1 into Patient_count// -1 is used to exclude headers
+repeat Patient_count times
+	
+	Put line (repeatindex()+1) of PatientData into Patient_Info
+	//Log Patient_info
+	Put item 3 of Patient_info into firstname
+	Put item 4 of Patient_info into middlename
+	Put item 5 of Patient_info into Lastname
+	Put item 1 of Patient_info into  MRN
+	Put item 9 of Patient_info into  MS
+	
+	click "NewPatient"//Clicking on screen where above details to be added
+	
+	Click "Name"
+	Typetext firstname,tabKey,middlename,tabKey//To reduce the number of code lines, typing in single line
+	
+	Typetext lastname
+	TypeText tabKey
+	
+	Typetext middlename
+	TypeText tabKey
+	Typetext MRN
+	TypeText tabKey
+	Typetext text:MS,searchRectangle:((1,1,1,1))
+	
+end repeat

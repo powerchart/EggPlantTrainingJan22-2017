@@ -1,0 +1,53 @@
+﻿click text:"Gmail"
+//Duplicate text handling
+log EveryImageLocation(Text: "Gmail")//Gives the cordinate
+click item 2 of EveryImageLocation(Text: "Gmail")//Clicks second gmail found in page based on cordinates
+
+
+//Another way
+put EveryImageLocation(Text: "Gmail") into Location_list
+click item 2 of Location_list
+
+//Search rectangle
+click image:"EXPLORE", searchRectangle: ((371,203,869,517))
+//In Capture mode, select a box, edit-Copy
+//Comeback to script and edit-paste
+
+click "Mushroom"//Mushroom is image 
+click "Mushroom",searchRectangle:(297,153,1605,1028)
+
+//Search rectangle referencing
+
+put ImageLocation("Coffee") into XY1
+put ImageLocation("ring") into XY2
+click image:"mushroom", searchRectangle: ("coffee","ring")
+
+put ReadText(((233,143,397,170))) into text
+log text
+
+//selecting ibus files from list
+put ReadText(((632,420,849,513)))into ibus_files_list
+Log ibus_files_list
+put the number of lines of ibus_files_list into max
+
+repeat max times
+	log line repeatindex() of ibus_files_list
+end repeat 
+
+//Reading multiple values and comparing and typing cheaper ones
+put EveryImageLocation("Dollar") into D_Location//dollar is image
+put the number of items of D_Location into max
+Put 1000000 into previous_price//initializing
+repeat max times
+	insert item repeatindex() of D_Location into RR
+	insert item repeatindex() of D_Location+(70,20) into RR//extending rectangle
+	put readtext(RR) into price
+	
+	if (previous_price>price)then
+		put price into Cheap
+		put price into previous_price
+	end if
+	put() into RR
+	
+end repeat
+log Cheap

@@ -1,0 +1,6 @@
+﻿2017-12-04 09:19:30.220 -0600	START		Running Master.script
+2017-12-04 09:19:30.455 -0600	doubleclick	Chrome Icon	at (40, 137)	1	on_master	Master.script
+2017-12-04 09:19:32.720 -0600	click	Refresh Icon	at (172, 48)	2	on_master	Master.script
+2017-12-04 09:19:33.908 -0600	typetext		www.amazon.com[returnKey]	3	on_master	Master.script
+2017-12-04 09:19:33.970 -0600	EndTestCase		(Duration:"3.734", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 09:19:30 -0600", Successes:"1", TestCase:"Master.script", Warnings:"0")
+2017-12-04 09:19:34.001 -0600	SUCCESS		Execution Time 0:00:03 Master.script

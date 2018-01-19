@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="HL7.script" package="eggPlant script.suite" timestamp="2017-12-14 10:42:38.148 -0600"
+ tests="1" successes="1" errors="0" time="1.985000">
+  <properties>
+   <property name="RunDate" value="2017-12-14 10:42:38.148 -0600"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="HL7.script" assertions="1" successes="1" errors="0" time="1.985">
+  </testcase>
+ </testsuite>
+</testsuites>

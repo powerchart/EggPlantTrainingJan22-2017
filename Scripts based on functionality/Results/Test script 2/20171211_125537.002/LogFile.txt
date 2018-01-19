@@ -1,0 +1,15 @@
+﻿2017-12-11 12:55:37.002 -0600	START		Running Test script 2.script
+2017-12-11 12:55:37.111 -0600	Log		Start Script	5	on_test_script_2	Test script 2.script
+2017-12-11 12:55:37.127 -0600	imagefound	Chrome Icon	found at (40, 137)	9	on_test_script_2	Test script 2.script
+2017-12-11 12:55:37.127 -0600	LogSuccess		Found it	10	on_test_script_2	Test script 2.script
+2017-12-11 12:55:37.314 -0600	doubleclick	Chrome Icon	at (40, 137)	16	on_test_script_2	Test script 2.script
+2017-12-11 12:55:39.549 -0600	click	Refresh Icon	at (197, 83)	17	on_test_script_2	Test script 2.script
+2017-12-11 12:55:40.877 -0600	typetext		www.WikiPedia.com[returnKey]	18	on_test_script_2	Test script 2.script
+2017-12-11 12:55:47.752 -0600	typetext		The Big Bang Theory season	21	on_test_script_2	Test script 2.script
+2017-12-11 12:55:53.783 -0600	typetext		[returnKey]	24	on_test_script_2	Test script 2.script
+2017-12-11 12:55:59.844 -0600	typetext		[controlKey]f	26	on_test_script_2	Test script 2.script
+2017-12-11 12:56:00.797 -0600	typetext		Season1	27	on_test_script_2	Test script 2.script
+2017-12-11 12:56:01.548 -0600	typetext		[returnKey]	28	on_test_script_2	Test script 2.script
+2017-12-11 12:56:45.069 -0600	imagefound	(TEXT:"Season1")	Unable to Find Image (TEXT:"Season1") within 30.00 seconds	31	on_test_script_2	Test script 2.script
+2017-12-11 12:56:45.272 -0600	EndTestCase		(Duration:"68.255", Errors:"0", Exceptions:"0", StartTime:"2017-12-11 12:55:37 -0600", Successes:"1", TestCase:"Test script 2.script", Warnings:"0")
+2017-12-11 12:56:45.319 -0600	SUCCESS		Execution Time 0:01:08 Test script 2.script

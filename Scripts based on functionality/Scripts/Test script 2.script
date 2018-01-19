@@ -1,0 +1,40 @@
+﻿//Chaithrika
+//Script on 11/Dec/2017
+
+
+Log "Start Script"
+
+//startmovie "Wikipedia"
+
+If imagefound ("Chrome Icon")
+	LogSuccess "Found it"
+Else
+	LogWarning "Unable to find required image"
+	
+End If
+
+DoubleClick "Chrome Icon"
+Click "Refresh Icon"
+typetext "www.WikiPedia.com",returnkey
+wait 6
+
+TypeText "The Big Bang Theory season"
+wait 6
+
+Typetext returnkey
+wait 6
+TypeText controlKey & "f"
+
+Typetext "Season 1"
+
+Typetext returnKey
+wait 6
+
+If ImageFound(30, (text: "Season 1")) then
+	click FoundImageInfo()
+	
+Else 
+	Typetext returnKey
+	
+	
+end if

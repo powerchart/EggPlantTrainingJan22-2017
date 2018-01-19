@@ -1,0 +1,4 @@
+﻿2017-12-04 15:17:13.098 -0600	START		Running Yahooooo.script
+2017-12-04 15:17:13.145 -0600	Exception	Google Chrome	Could Not Open Image: Google Chrome	8	on_yahooooo	Yahooooo.script
+2017-12-04 15:17:13.223 -0600	EndTestCase		(Duration:"0.125", Errors:"1", Exceptions:"1", StartTime:"2017-12-04 15:17:13 -0600", Successes:"0", TestCase:"Yahooooo.script", Warnings:"0")
+2017-12-04 15:17:13.333 -0600	FAILURE	Screen_Error.png	File Not Found doubleclick Error - Could Not Open Image: Google Chrome -- Execution Time 0:00:00 Yahooooo.script

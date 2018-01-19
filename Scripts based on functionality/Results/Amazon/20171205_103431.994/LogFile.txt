@@ -1,0 +1,8 @@
+﻿2017-12-05 10:34:31.994 -0600	START		Running Amazon.script
+2017-12-05 10:34:32.073 -0600	Log		Start Script	5	on_amazon	Amazon.script
+2017-12-05 10:34:32.088 -0600	imagefound	Chrome Icon	found at (40, 137)	10	on_amazon	Amazon.script
+2017-12-05 10:34:32.088 -0600	LogSuccess		Found it	11	on_amazon	Amazon.script
+2017-12-05 10:34:32.291 -0600	doubleclick	Chrome Icon	at (40, 137)	17	on_amazon	Amazon.script
+2017-12-05 10:42:54.552 -0600	Exception	Refresh Icon	No Image Found On Screen: "Refresh Icon"	18	on_amazon	Amazon.script
+2017-12-05 10:42:54.708 -0600	EndTestCase		(Duration:"502.683", Errors:"1", Exceptions:"1", StartTime:"2017-12-05 10:34:32 -0600", Successes:"1", TestCase:"Amazon.script", Warnings:"0")
+2017-12-05 10:42:54.708 -0600	ABORTED		Execution Time 0:08:23 Amazon.script

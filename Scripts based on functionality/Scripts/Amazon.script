@@ -1,0 +1,41 @@
+﻿//Chaithrika
+//Script on 4/Dec/2017
+
+
+Log "Start Script"
+
+
+//startmovie "Opening Amazon"
+
+If imagefound ("Chrome Icon")
+	LogSuccess "Found it"
+Else
+	LogWarning "Unable to find required image"
+	
+End If
+
+DoubleClick "Chrome Icon"
+Click "Refresh Icon"
+typetext "www.amazon.com",returnkey
+TypeText returnkey
+WaitFor 8.0, "Amazon search"
+Log "Amazon has been open"
+
+//Taking execution duration for abilities lab
+BeginTestCase "Amazon Open"
+Click "Department Drop down"
+TypeText pagedown
+TypeText pagedown
+Click "MoviesTV"
+Click (Image:"MoviesTV_search", WaitFor:8)
+EndTestCase "Amazon Open"
+
+TypeText "The Big Bang Theory-seasons", returnkey
+Click "Format-DVD"
+Click "10 Edition"
+Click (Image:"DVD-2 instance", WaitFor:60)
+CaptureScreen (Name: "Seach successful")
+
+//StopMovie
+
+

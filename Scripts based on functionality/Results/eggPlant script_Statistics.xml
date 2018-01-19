@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="Master">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>17</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2017-12-04 08:56:58 -0600</FirstRun>
+  <LastRun>2017-12-04 13:53:20 -0600</LastRun>
+  <TotalTimeOnSuccess>175.217000</TotalTimeOnSuccess>
+ </script>
+ <script name="Importing files">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-12-11 09:45:28 -0600</FirstRun>
+  <LastRun>2017-12-11 10:01:02 -0600</LastRun>
+  <TotalTimeOnSuccess>0.781000</TotalTimeOnSuccess>
+ </script>
+ <script name="Cordinates">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-12-05 10:34:23 -0600</FirstRun>
+  <LastRun>2017-12-05 10:47:20 -0600</LastRun>
+  <TotalTimeOnSuccess>1.395000</TotalTimeOnSuccess>
+ </script>
+ <script name="Untitled">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-12-15 09:36:54 -0600</FirstRun>
+  <LastRun>2017-12-15 09:38:07 -0600</LastRun>
+  <TotalTimeOnSuccess>1.313000</TotalTimeOnSuccess>
+ </script>
+ <script name="Yahooooo">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>8</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2017-12-04 15:17:13 -0600</FirstRun>
+  <LastRun>2017-12-05 09:00:56 -0600</LastRun>
+  <TotalTimeOnSuccess>3.015000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test script 2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-12-11 11:34:54 -0600</FirstRun>
+  <LastRun>2017-12-11 13:01:11 -0600</LastRun>
+  <TotalTimeOnSuccess>297.027000</TotalTimeOnSuccess>
+ </script>
+ <script name="HL7">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-12-14 10:07:27 -0600</FirstRun>
+  <LastRun>2017-12-14 11:38:40 -0600</LastRun>
+  <TotalTimeOnSuccess>28.868000</TotalTimeOnSuccess>
+ </script>
+ <script name="CSV and encoding">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>16</NumberOfRuns>
+  <NumberOfFails>5</NumberOfFails>
+  <FirstRun>2017-12-14 15:20:50 -0600</FirstRun>
+  <LastRun>2017-12-15 09:15:42 -0600</LastRun>
+  <TotalTimeOnSuccess>5.080000</TotalTimeOnSuccess>
+ </script>
+</statistics>

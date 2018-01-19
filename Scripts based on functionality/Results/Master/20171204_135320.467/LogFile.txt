@@ -1,0 +1,27 @@
+﻿2017-12-04 13:53:20.467 -0600	START		Running Master.script
+2017-12-04 13:53:20.561 -0600	Log		Start Script	5	on_amazon	Amazon.script
+2017-12-04 13:53:20.577 -0600	imagefound	Chrome Icon	found at (40, 137)	10	on_amazon	Amazon.script
+2017-12-04 13:53:20.577 -0600	LogSuccess		Found it	11	on_amazon	Amazon.script
+2017-12-04 13:53:20.749 -0600	doubleclick	Chrome Icon	at (40, 137)	17	on_amazon	Amazon.script
+2017-12-04 13:53:22.342 -0600	click	Refresh Icon	at (197, 83)	18	on_amazon	Amazon.script
+2017-12-04 13:53:23.577 -0600	typetext		www.amazon.com[returnKey]	19	on_amazon	Amazon.script
+2017-12-04 13:53:24.327 -0600	typetext		[returnKey]	20	on_amazon	Amazon.script
+2017-12-04 13:53:25.092 -0600	waitfor	Amazon search	found at (575, 206)	21	on_amazon	Amazon.script
+2017-12-04 13:53:25.108 -0600	Log		Amazon has been open	22	on_amazon	Amazon.script
+2017-12-04 13:53:25.108 -0600	BeginTestCase		Amazon Open	25	on_amazon	Amazon.script
+2017-12-04 13:53:25.342 -0600	click	Department Drop down	at (239, 211)	26	on_amazon	Amazon.script
+2017-12-04 13:53:26.092 -0600	typetext		[pageDown]	27	on_amazon	Amazon.script
+2017-12-04 13:53:26.842 -0600	typetext		[pageDown]	28	on_amazon	Amazon.script
+2017-12-04 13:53:29.421 -0600	click	MoviesTV	at (265, 574)	29	on_amazon	Amazon.script
+2017-12-04 13:53:30.327 -0600	click	MoviesTV_search	at (342, 208)	30	on_amazon	Amazon.script
+2017-12-04 13:53:30.327 -0600	EndTestCase		(Duration:"5.219", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 13:53:25 -0600", Successes:"0", TestCase:"Amazon Open", Warnings:"0")	31	on_amazon	Amazon.script
+2017-12-04 13:53:32.030 -0600	typetext		The Big Bang Theory-seasons[returnKey]	33	on_amazon	Amazon.script
+2017-12-04 13:53:34.421 -0600	click	Format-DVD	at (361, 389)	34	on_amazon	Amazon.script
+2017-12-04 13:53:36.758 -0600	click	10 Edition	at (361, 490)	35	on_amazon	Amazon.script
+2017-12-04 13:53:40.430 -0600	click	DVD-2 instance	at (650, 694)	36	on_amazon	Amazon.script
+2017-12-04 13:53:40.570 -0600	capturescreen	Seach successful.png		37	on_amazon	Amazon.script
+2017-12-04 13:53:41.273 -0600	click	Close	at (994, 29)	2	on_master	Master.script
+2017-12-04 13:53:42.508 -0600	click	Chrome Icon	at (40, 137)	3	on_master	Master.script
+2017-12-04 13:53:42.523 -0600	Exception	Google Chrome	Could Not Open Image: Google Chrome	8	on_yahooooo	Yahooooo.script
+2017-12-04 13:53:42.586 -0600	EndTestCase		(Duration:"22.119", Errors:"1", Exceptions:"1", StartTime:"2017-12-04 13:53:20 -0600", Successes:"1", TestCase:"Master.script", Warnings:"0")
+2017-12-04 13:53:42.680 -0600	FAILURE	Screen_Error.png	File Not Found doubleclick Error - Could Not Open Image: Google Chrome -- Execution Time 0:00:22 Master.script

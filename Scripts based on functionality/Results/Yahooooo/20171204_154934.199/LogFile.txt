@@ -1,0 +1,4 @@
+﻿2017-12-04 15:49:34.199 -0600	START		Running Yahooooo.script
+2017-12-04 15:49:36.012 -0600	click	BBOXD-Deploy Panel	at (249, 397)	7	on_yahooooo	Yahooooo.script
+2017-12-04 15:49:36.121 -0600	EndTestCase		(Duration:"1.906", Errors:"0", Exceptions:"0", StartTime:"2017-12-04 15:49:34 -0600", Successes:"1", TestCase:"Yahooooo.script", Warnings:"0")
+2017-12-04 15:49:36.168 -0600	SUCCESS		Execution Time 0:00:02 Yahooooo.script

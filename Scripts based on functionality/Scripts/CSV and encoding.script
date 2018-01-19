@@ -1,0 +1,40 @@
+﻿(*Put file ResourcePath("JIRA 2.csv") into csvstuff
+//Log  item 5 of line 3 of csvstuff
+Put item 2 of line 3 of csvstuff  into Domainname*)
+
+Put file ResourcePath ("Config.csv")  into config_details
+Put item 8 of line 2 of config_details  into global Deployer_Password
+Log global Deployer_Password
+log DecodeText(global Deployer_Password)
+
+
+//DecodeText(global Deployer_Password)
+
+
+Log config_details
+
+
+
+
+
+Put item 1 of line 2 of config_details  into global Ip_Address
+Put item 2 of line 2 of config_details  into global Domain_Name
+Put item 3 of line 2 of config_details  into global  Domain_Folder
+Put item 4 of line 2 of config_details  into global DomainArchive_Folder
+Put item 5 of line 2 of config_details  into global Solution
+Put item 6 of line 2 of config_details  into global Network_Username
+Put item 7 of line 2 of config_details  into global Network_Password
+
+
+Log global Ip_Address
+Log global Domain_Name
+Log global  Domain_Folder
+Log global DomainArchive_Folder
+Log global Solution
+Log global Network_Username
+Log global Network_Password
+
+
+
+
+

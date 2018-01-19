@@ -1,0 +1,30 @@
+﻿put ("banana","Apple","Bread","Milk") into grocery_list
+
+typetext grocery_list
+log grocery_list
+// output will be something like this:
+//Banana
+//Apple
+//Bread
+//Milk
+
+
+//Case2: To type only apple
+Typetext item 2 of grocery_list
+Typetext item 4 of grocery_list && item 1 of grocery_list //output Milk and banana
+
+put ("chome icon", "IE") into browser_list
+click item 1 of browser_list
+put ("john","Doe",40,"Male","Married") into Patient
+click item 4 of Patient && item 2 of Patient
+//Male and doe are out put. Also no need to add "" to integers
+
+//Cross referencing variables
+put ("john","Doe",40,"Male","Married") into Patient
+put 2 into access
+log item access of patient//output is Doe since it reads as log item 2 of patient
+
+//example cross referencing variabless
+put "5 feet" into height
+put ("john","Doe",40,"Male","Married", height) into Patient
+log item 6 of patients

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Yahooooo">
+ <run>
+  <RunDate>2017-12-04 15:17:13.098 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.125000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171204_151713.098/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- doubleclick Error - Could Not Open Image: Google Chrome</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-04 15:49:34.199 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>1.922000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171204_154934.199/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 08:57:51.804 -0600</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.297000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171205_085751.804/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: Chrome</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 08:58:09.124 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.218000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_085809.124/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 08:58:31.983 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.235000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_085831.983/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 08:59:08.877 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.219000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_085908.877/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 09:00:44.335 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.265000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_090044.335/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2017-12-05 09:00:56.791 -0600</RunDate>
+  <Status>Success</Status>
+  <Duration>0.156000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20171205_090056.791/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

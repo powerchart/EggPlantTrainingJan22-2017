@@ -1,0 +1,4 @@
+﻿2017-12-05 09:00:44.335 -0600	START		Running Yahooooo.script
+2017-12-05 09:00:44.444 -0600	waitfor	Chrome Icon	found at (40, 137)	5	on_yahooooo	Yahooooo.script
+2017-12-05 09:00:44.600 -0600	EndTestCase		(Duration:"0.25", Errors:"0", Exceptions:"0", StartTime:"2017-12-05 09:00:44 -0600", Successes:"1", TestCase:"Yahooooo.script", Warnings:"0")
+2017-12-05 09:00:44.647 -0600	SUCCESS		Execution Time 0:00:00 Yahooooo.script

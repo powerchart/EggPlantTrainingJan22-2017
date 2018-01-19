@@ -1,0 +1,4 @@
+﻿2017-12-15 09:37:33.232 -0600	START		Running Untitled.script
+2017-12-15 09:37:33.295 -0600	Log		password1234	4	on_untitled	Untitled.script
+2017-12-15 09:37:33.654 -0600	EndTestCase		(Duration:"0.422", Errors:"0", Exceptions:"0", StartTime:"2017-12-15 09:37:33 -0600", Successes:"1", TestCase:"Untitled.script", Warnings:"0")
+2017-12-15 09:37:33.717 -0600	SUCCESS		Execution Time 0:00:00 Untitled.script

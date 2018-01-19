@@ -1,0 +1,5 @@
+﻿2017-12-05 10:34:23.135 -0600	START		Running Cordinates.script
+2017-12-05 10:34:23.213 -0600	imagelocation	chrome icon	at (40, 137)	1	on_cordinates	Cordinates.script
+2017-12-05 10:34:23.338 -0600	click		at (40, 137)	2	on_cordinates	Cordinates.script
+2017-12-05 10:34:23.479 -0600	EndTestCase		(Duration:"0.344", Errors:"0", Exceptions:"0", StartTime:"2017-12-05 10:34:23 -0600", Successes:"1", TestCase:"Cordinates.script", Warnings:"0")
+2017-12-05 10:34:23.510 -0600	SUCCESS		Execution Time 0:00:00 Cordinates.script
