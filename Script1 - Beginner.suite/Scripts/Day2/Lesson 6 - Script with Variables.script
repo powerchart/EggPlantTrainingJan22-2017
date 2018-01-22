@@ -156,21 +156,47 @@ DoubleClick browser
 //Repeat Until
 //Repeat while
 //Repeat Count times
+//Repeat with Each Items of the list.
+
+
+//Repeat Until
+//Syntax
 Repeat until ￹condition￺TP-EPF-TOKEN￻
 	￹statements￺TP-EPF-TOKEN￻
 End repeat
 
+//Example
+repeat until ImageFound("coffee_can")
+	typetext pagedown
+	
+	if ImageFound("Endof_page") then 
+		logerror "Unable to find image"
+		exit repeat
+	end if
+end repeat
+click "coffee_can"
 
+//Repeat while
+//Syntax
 Repeat while ￹condition￺TP-EPF-TOKEN￻
 	￹statements￺TP-EPF-TOKEN￻
 End repeat
 
+//Example
 
+
+//Repeat Count time
+//Syntax
 Repeat ￹count￺TP-EPF-TOKEN￻ times
 	￹statements￺TP-EPF-TOKEN￻
 End repeat
 
+//Example
 
+repeat 3 times
+	typetext "Hi"
+	typetext return
+end repeat
 Repeat with each item ￹variable￺TP-EPF-TOKEN￻ of ￹list￺TP-EPF-TOKEN￻
 	￹statements￺TP-EPF-TOKEN￻
 End repeat
