@@ -1,4 +1,54 @@
-﻿put 2 into x
+﻿//Assigning and acessing simple variables
+
+
+//What is a variable?
+
+//In EggPlant Variable is a container not like other language it will hold a specific data type.
+
+//Since a varaibale in eggplant is behave like a container, you can have any type of data/array/list etc..
+
+//There is no decelaration and definition section.
+
+//Variables can be at three levels
+
+(* Local Variables
+
+Global Variables
+
+universal Variables
+ *)
+
+
+//Local Variables
+//Syntax to, if required explain all types of assigning.
+
+put value into variable //Adds a value to the variable.
+
+//Examples
+
+//Only Value
+Put Hello
+log Hello
+
+//Variable with value
+
+Put "Hello" into Greetings
+log Greetings
+
+
+put "John" into First_Name
+put "tyre" into Last_Name
+
+log First_Name & & Last_Name  //& is used as concatination operator.
+
+
+set ￹variable￺TP-EPF-TOKEN￻ to ￹value￺TP-EPF-TOKEN￻//Set the variable with value.
+
+//difference between set and put
+put value after variable //Add the value at the end of the List we can explain this during list.
+put value before variable //Add the value at the begining of the list.
+
+put 2 into x
 TypeText x
 
 
@@ -10,8 +60,7 @@ typetext y
 
 //log the return.Duration
 
-put "John" into First_Name
-put "tyre" into Last_Name
+
 
 TypeText firstname
 
