@@ -13,6 +13,11 @@ Run "Day1/Lesson 4 - More basic"
 
 //put EveryImageLocation("￹@imageName￺TP-EPF-TOKEN￻")
 
+//If there are same images in multiple screens we can apply list and click to select. (use Amazon.com)
+
+log EveryImageLocation("EXPLORE")
+click item 2 of EveryImageLocation("EXPLORE")
+
 //log FoundImageLocation()
 
 //log FoundImageLocation()

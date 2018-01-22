@@ -1,13 +1,20 @@
-﻿//Clicking using Text
+﻿--------------------------Finding and Reading the text----------
+
+//Clicking using Text
 Click text:"Gmail"
 Click text:"SIGN"
 Click text:"NEXT"
 Click text:"Email or phone"
 
-//If there are same images in multiple screens we can apply list and click to select. (use Amazon.com)
 
-log EveryImageLocation("EXPLORE")
-click item 2 of EveryImageLocation("EXPLORE")
+//reading the text
+
+log ReadText((664,81,1009,244))
+put readtext((20,234,500,590)) into var1
+log var1
+log readtext((155,190,850,546))
+
+---------------------------Using Search Rectangle-----------------------------
 
 //Specifying the area for searching the text.
 //to get the x and y cororidnates of a rectangle area
@@ -15,6 +22,11 @@ click item 2 of EveryImageLocation("EXPLORE")
 
 click image:"EXPLORE", searchRectangle:(96,15,840,322)
 click text:"EXPLORE", searchRectangle:(96,15,840,322)
+
+//clicking text with in search rectangle
+
+click text:"cart",searchRectangle: (664,81,1009,244)
+click text:"try prime",searchRectangle: (664,81,1009,244)
 
 //Searching between the images
 
@@ -25,17 +37,6 @@ click image:"DogImage",searchRectangle:(xy1,xy2)
 click "DogImage"
 click image:"DogImage",searchRectangle:("MixImage","CatsImage")
 
-//clicking text with in search rectangle
-
-click text:"cart",searchRectangle: (664,81,1009,244)
-click text:"try prime",searchRectangle: (664,81,1009,244)
-
-//reading the text
-
-log ReadText((664,81,1009,244))
-put readtext((20,234,500,590)) into var1
-log var1
-log readtext((155,190,850,546))
 
 //price check for all and display all from amazon.com across a range of sellers for any product
 //reading text and comparing or reading text from multiple pages.
@@ -72,5 +73,9 @@ repeat max times
 	wait 2
 	put () into rr
 end repeat
+
+
+
+
 
 
