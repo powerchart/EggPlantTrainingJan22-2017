@@ -9,17 +9,12 @@
 
 //There is no decelaration and definition section.
 
-//Variables can be at three levels
+(*Variables can be at three levels
 
-(* Local Variables
-
-Global Variables
-
-universal Variables
- *)
+Local Variables , Global Variables *)
 
 
-//Local Variables
+---------------------------------------------Local Variables---------------------------------------
 //Syntax to, if required explain all types of assigning.
 
 put value into variable //Adds a value to the variable.
@@ -41,72 +36,30 @@ put "tyre" into Last_Name
 
 log First_Name & & Last_Name  //& is used as concatination operator.
 
+Log "My name" & ":" & First_Name & " " & Last_Name & "."
 
-set ￹variable￺TP-EPF-TOKEN￻ to ￹value￺TP-EPF-TOKEN￻//Set the variable with value.
 
-//difference between set and put
-put value after variable //Add the value at the end of the List we can explain this during list.
-put value before variable //Add the value at the begining of the list.
+//working with dates.
+put the date into currentdate
+log currentdate
+
+//working with numeric data
 
 put 2 into x
-TypeText x
+put 3 into y
+log x * y
 
 
-typetext returnkey
+put two into x
+put three into y
+log x * y
 
-put 2 into y
-typetext y
-
-
-//log the return.Duration
-
-
-
-TypeText firstname
-
-TypeText returnkey
-
-TypeText First_Name
-
-typetext First_Name, "-" ,Last_Name
 
 //keyboard or controls in the variables.
 
 put controlkey & a into Select
 put deleteKey into Delete
-
 typetext Select, Delete
-
-
-//Varibale concatination.
-put "John" into First_Name
-put "tyre" into Last_Name
-
-typetext First_Name & " " & Last_Name
-
-typetext return
-
-typetext "My name" & ":" & First_Name & " " & Last_Name & "."
-
-
-//Launching chrome.
-
-put "chrome Image" into Browser
-
-DoubleClick Browser
-
-WaitFor 8, Browser
-
-//&& adds a space between the text.
-
-log "Logged into the" && Browser
-
-
-//Set command
-
-set browser to "chrome Image"
-DoubleClick browser
-
 
 
 //Conditional Statements
@@ -122,7 +75,7 @@ else
 	typetext "goodbye"
 end if
 
-//List of values for a variable
+//List of string values for a variable
 
 put ("banana","grapes","bread") into grocery_list
 
@@ -140,6 +93,7 @@ TypeText items 1 to 3 of grocery_list
 
 typetext return
 
+//List of numeric values for a variable
 
 put (1,2,3,4,5,6,7) into grocery_list1
 TypeText items 1 to 3 of grocery_list1
@@ -156,6 +110,8 @@ TypeText "No of items in the Grocery list: "
 put the number of items in grocery_list1 into count
 typetext count
 
+
+
 //Getting the value and storing into Variable.
 
 //Getting Image coordinates and storing.
@@ -171,6 +127,35 @@ doubleclick (xcord, ycord)
 
 put ImageLocation(Text:"Bin") into textcord
 log textcord
+
+
+
+
+-----------------------------Global Variables - can be used in master scripts -------------------
+
+//Global variables can be referenced from any handler within a project. Unlike local variables, global variables retain their value between different handlers
+//The global keyword can be used at the beginning of a line, like a command, followed by a list of the names of variables being declared as globals.
+global VariableName 
+
+//More on Global variables can be learnt in further classes while learning handlers.
+
+log global VariableName
+
+
+-------------------------------Set Command-------------------------------------
+//Set command another way of assigning the values.
+
+set browser to "chrome Image"
+DoubleClick browser
+
+
+-------------------------------------------Looping-----------------------------------------------
+
+
+
+
+
+
 
 
 
