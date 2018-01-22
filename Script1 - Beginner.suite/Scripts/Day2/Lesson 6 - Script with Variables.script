@@ -70,7 +70,7 @@ set y to 7
 if (x>y)
 	log "hello"
 	typetext "hello"
-else
+	else
 	log "goodbye"
 	typetext "goodbye"
 end if
@@ -150,6 +150,30 @@ DoubleClick browser
 
 
 -------------------------------------------Looping-----------------------------------------------
+
+//Repeat statements are used for Looping structure.
+
+//Repeat Until
+//Repeat while
+//Repeat Count times
+Repeat until ￹condition￺TP-EPF-TOKEN￻
+	￹statements￺TP-EPF-TOKEN￻
+End repeat
+
+
+Repeat while ￹condition￺TP-EPF-TOKEN￻
+	￹statements￺TP-EPF-TOKEN￻
+End repeat
+
+
+Repeat ￹count￺TP-EPF-TOKEN￻ times
+	￹statements￺TP-EPF-TOKEN￻
+End repeat
+
+
+Repeat with each item ￹variable￺TP-EPF-TOKEN￻ of ￹list￺TP-EPF-TOKEN￻
+	￹statements￺TP-EPF-TOKEN￻
+End repeat
 
 
 
