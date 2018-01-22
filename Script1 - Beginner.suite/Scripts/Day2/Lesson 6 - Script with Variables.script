@@ -1,107 +1,66 @@
-﻿//Assigning and acessing simple variables
+﻿//Assigning and accessing simple variables 
+put 2 into x
+TypeText x
+typetext returnkey
+put 2 into y
+typetext y
 
-
-//What is a variable?
-
-//In EggPlant Variable is a container not like other language it will hold a specific data type.
-
-//Since a varaibale in eggplant is behave like a container, you can have any type of data/array/list etc..
-
-//There is no decelaration and definition section.
-
-(*Variables can be at three levels
-
-Local Variables , Global Variables *)
-
-
----------------------------------------------Local Variables---------------------------------------
-//Syntax to, if required explain all types of assigning.
-
-put value into variable //Adds a value to the variable.
-
-//Examples
-
-//Only Value
-Put Hello
-log Hello
-
-//Variable with value
-
-Put "Hello" into Greetings
-log Greetings
-
-
+//Using variables for click, typetext, log 
 put "John" into First_Name
 put "tyre" into Last_Name
 
-log First_Name & & Last_Name  //& is used as concatination operator.
-
-Log "My name" & ":" & First_Name & " " & Last_Name & "."
-
-
-//working with dates.
-put the date into currentdate
-log currentdate
-
-//working with numeric data
-
-put 2 into x
-put 3 into y
-log x * y
-
-
-put two into x
-put three into y
-log x * y
-
+TypeText firstname
+TypeText returnkey
+TypeText First_Name
+typetext First_Name, "-" ,Last_Name
 
 //keyboard or controls in the variables.
-
-put controlkey & a into Select
+put controlkey & a into Select_all
 put deleteKey into Delete
-typetext Select, Delete
+
+typetext Select_all, Delete
+
+//Varibale concatenation.
+put "John" into First_Name
+put "tyre" into Last_Name
+
+typetext First_Name & " " & Last_Name
+typetext return
+typetext "My name" & ":" & First_Name & " " & Last_Name & "."
+
+//Launching chrome.
+put "chrome Image" into Browser
+DoubleClick Browser
+WaitFor 8, Browser
+
+//&& adds a space between the text.
+log "Logged into the" && Browser
 
 
-//Conditional Statements
+//Set command
+set browser to "chrome Image"
+DoubleClick browser
 
-set x to 8
-set y to 7
-
-if (x>y)
-	log "hello"
-	typetext "hello"
-	else
-	log "goodbye"
-	typetext "goodbye"
-end if
-
-//List of string values for a variable
+//List of values for a variable
 
 put ("banana","grapes","bread") into grocery_list
 
 TypeText "Full Grocery List: "
 typetext grocery_list
-
 typetext return
 
 TypeText "First Item in Grocery list:"
 typetext item 1 of grocery_list
-
 typetext return
 
 TypeText items 1 to 3 of grocery_list
-
 typetext return
-
-//List of numeric values for a variable
 
 put (1,2,3,4,5,6,7) into grocery_list1
 TypeText items 1 to 3 of grocery_list1
 
 typetext return
-
 typetext item 1 of grocery_list && items 1 to 4 of grocery_list1
-
 TypeText return
 
 //To count list of items in the List.
@@ -109,8 +68,6 @@ put (1,2,3,4,5,6,7) into grocery_list1
 TypeText "No of items in the Grocery list: " 
 put the number of items in grocery_list1 into count
 typetext count
-
-
 
 //Getting the value and storing into Variable.
 
@@ -128,47 +85,25 @@ doubleclick (xcord, ycord)
 put ImageLocation(Text:"Bin") into textcord
 log textcord
 
+//repeat statement
+// repeat times
 
+repeat 3 times
+	typetext "Hi"
+	typetext return
+end repeat
 
+//repeat with image and existing with an condition.
+//repeat until with condition statements.
 
------------------------------Global Variables - can be used in master scripts -------------------
-
-//Global variables can be referenced from any handler within a project. Unlike local variables, global variables retain their value between different handlers
-//The global keyword can be used at the beginning of a line, like a command, followed by a list of the names of variables being declared as globals.
-global VariableName 
-
-//More on Global variables can be learnt in further classes while learning handlers.
-
-log global VariableName
-
-
--------------------------------Set Command-------------------------------------
-//Set command another way of assigning the values.
-
-set browser to "chrome Image"
-DoubleClick browser
-
-
--------------------------------------------Looping-----------------------------------------------
-
-//Repeat statements are used for Looping structure.
-
-//Repeat Until
-//Repeat while
-//Repeat Count times
-//Repeat with Each Items of the list.
-
-
-//Repeat Until
-//Syntax
-Repeat until ￹condition￺TP-EPF-TOKEN￻
-	￹statements￺TP-EPF-TOKEN￻
-End repeat
-
-//Example
 repeat until ImageFound("coffee_can")
 	typetext pagedown
-	
+end repeat
+click "coffee_can"
+
+//with imagefound function to exit the loop
+repeat until ImageFound("coffee_can")
+	typetext pagedown
 	if ImageFound("Endof_page") then 
 		logerror "Unable to find image"
 		exit repeat
@@ -176,33 +111,24 @@ repeat until ImageFound("coffee_can")
 end repeat
 click "coffee_can"
 
-//Repeat while
-//Syntax
-Repeat while ￹condition￺TP-EPF-TOKEN￻
-	￹statements￺TP-EPF-TOKEN￻
-End repeat
+//mathematical operations
+//see sensetalk browser for "Numeric operations"
 
-//Example
+put 14 into var
+put 7 into var2
+log var + var2
+log var/var2
+log var divided by var2
+log var * var2
 
+//crazy stuff
+log one plus seven
+put seven into var2
+log var plus var2
 
-//Repeat Count time
-//Syntax
-Repeat ￹count￺TP-EPF-TOKEN￻ times
-	￹statements￺TP-EPF-TOKEN￻
-End repeat
-
-//Example
-
-repeat 3 times
-	typetext "Hi"
-	typetext return
-end repeat
-Repeat with each item ￹variable￺TP-EPF-TOKEN￻ of ￹list￺TP-EPF-TOKEN￻
-	￹statements￺TP-EPF-TOKEN￻
-End repeat
-
-
-
+//date functions
+log the date
+log the date plus three days
 
 
 

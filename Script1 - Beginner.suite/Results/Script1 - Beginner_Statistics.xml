@@ -40,6 +40,14 @@
   <LastRun>2017-12-05 20:11:07 +0530</LastRun>
   <TotalTimeOnSuccess>31.609000</TotalTimeOnSuccess>
  </script>
+ <script name="Day2/Lesson 7 - How to use OCR">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-12-05 22:44:59 +0530</FirstRun>
+  <LastRun>2017-12-06 02:11:23 +0530</LastRun>
+  <TotalTimeOnSuccess>19.420000</TotalTimeOnSuccess>
+ </script>
  <script name="Day3/Day3 Class room script">
   <LastStatus>Success</LastStatus>
   <NumberOfRuns>8</NumberOfRuns>
@@ -47,22 +55,6 @@
   <FirstRun>2017-12-11 11:38:56 -0600</FirstRun>
   <LastRun>2017-12-11 12:34:48 -0600</LastRun>
   <TotalTimeOnSuccess>35.709000</TotalTimeOnSuccess>
- </script>
- <script name="Day2/Looping">
-  <LastStatus>Success</LastStatus>
-  <NumberOfRuns>3</NumberOfRuns>
-  <NumberOfFails>0</NumberOfFails>
-  <FirstRun>2017-12-05 22:26:39 +0530</FirstRun>
-  <LastRun>2017-12-05 22:27:10 +0530</LastRun>
-  <TotalTimeOnSuccess>9.487000</TotalTimeOnSuccess>
- </script>
- <script name="Day2/OCR">
-  <LastStatus>Failure</LastStatus>
-  <NumberOfRuns>3</NumberOfRuns>
-  <NumberOfFails>1</NumberOfFails>
-  <FirstRun>2017-12-05 22:44:59 +0530</FirstRun>
-  <LastRun>2017-12-06 02:11:23 +0530</LastRun>
-  <TotalTimeOnSuccess>19.420000</TotalTimeOnSuccess>
  </script>
  <script name="Day1/Lesson 4 - More basic">
   <LastStatus>Success</LastStatus>
