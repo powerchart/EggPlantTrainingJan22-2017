@@ -1,2 +1,52 @@
 ﻿put value after variable //Add the value at the end of the List we can explain this during list.
 put value before variable //Add the value at the begining of the list.
+
+
+
+
+
+
+put ImageLocation(Text:"MRN") into loc
+log loc
+
+put loc+(0,-10) into TR
+log TR
+
+put loc+(20,0) into BR
+log BR
+
+log ReadText(TR,BR)
+
+
+put (topLeft of (ImageLocation(Text:"MRN"))) into TR 
+log TR
+
+log topleft of ((908,148,943,162))
+
+put bottomRight of ImageLocation(Text:"MRN") into BR
+
+log TR, BR
+
+
+
+put ImageLocation(Text:"MRN") into SR
+log SR
+ReadText(SR)
+log ReadText(SR)
+Set NewSR to SR+(20,0)
+log NewSR
+log ReadText(NewSR)
+
+
+
+
+MoveTo (Text:"MRN")
+
+if ( )
+	log "sucess"
+end if
+
+
+
+
+

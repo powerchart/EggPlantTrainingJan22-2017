@@ -1,0 +1,20 @@
+﻿//Master Script Usage and execution
+//Just calling another script
+Run "Day3/Script1"
+
+
+//calling script using Params
+
+Run "Day3/Script2" "2","3","4"
+
+
+
+put "something" into global var
+put "VC025736" into global Username
+put "cerner" into global Password
+
+Run "Day3/Global Varibales"
+
+
+
+

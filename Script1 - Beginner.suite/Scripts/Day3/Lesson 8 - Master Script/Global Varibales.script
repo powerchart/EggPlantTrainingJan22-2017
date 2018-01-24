@@ -1,0 +1,12 @@
+﻿//logging global variable value
+
+put global var into var1
+put global UserName into UN
+put global Password into PWD
+
+log var1
+log UN
+log PWD
+
+
+
