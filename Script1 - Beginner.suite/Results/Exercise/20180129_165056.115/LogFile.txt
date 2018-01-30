@@ -1,0 +1,81 @@
+﻿2018-01-29 16:50:56.122 +0530	START		Running Exercise.script
+2018-01-29 16:50:56.333 +0530	waitfor	Chrome_icon	found at (565, 127)	2	on_exercise	Exercise.script
+2018-01-29 16:50:56.665 +0530	doubleclick	Chrome_icon	at (565, 127)	7	on_exercise	Exercise.script
+2018-01-29 16:50:58.438 +0530	waitfor	refresh_icon	found at (131, 45)	8	on_exercise	Exercise.script
+2018-01-29 16:50:58.440 +0530	Log		Chrome has launched successfully	9	on_exercise	Exercise.script
+2018-01-29 16:50:58.565 +0530	click	refresh_icon	at (131, 45)	10	on_exercise	Exercise.script
+2018-01-29 16:50:59.457 +0530	typetext		www.amazon.com[returnKey]	11	on_exercise	Exercise.script
+2018-01-29 16:51:01.264 +0530	waitfor	cart_icon	found at (1234, 241)	12	on_exercise	Exercise.script
+2018-01-29 16:51:05.685 +0530	waitfor	refresh_icon	found at (131, 45)	13	on_exercise	Exercise.script
+2018-01-29 16:51:05.687 +0530	Log		cart image found, need to search department	14	on_exercise	Exercise.script
+2018-01-29 16:51:05.811 +0530	click	All_dropdown	at (223, 189)	15	on_exercise	Exercise.script
+2018-01-29 16:51:08.134 +0530	waitfor	AllDepartments	found at (206, 214)	16	on_exercise	Exercise.script
+2018-01-29 16:51:10.332 +0530	imagefound	Movies&TV	Unable to Find Image Movies&TV within 2.00 seconds	18	on_exercise	Exercise.script
+2018-01-29 16:51:10.348 +0530	typetext		[pageDown]	19	on_exercise	Exercise.script
+2018-01-29 16:51:12.538 +0530	imagefound	Movies&TV	Unable to Find Image Movies&TV within 2.00 seconds	20	on_exercise	Exercise.script
+2018-01-29 16:51:14.590 +0530	imagefound	VideoGames	Unable to Find Image VideoGames within 2.00 seconds	24	on_exercise	Exercise.script
+2018-01-29 16:51:16.853 +0530	imagefound	Movies&TV	Unable to Find Image Movies&TV within 2.00 seconds	29	on_exercise	Exercise.script
+2018-01-29 16:51:16.905 +0530	typetext		[pageDown]	19	on_exercise	Exercise.script
+2018-01-29 16:51:18.484 +0530	imagefound	Movies&TV	found at (226, 554)	20	on_exercise	Exercise.script
+2018-01-29 16:51:18.602 +0530	doubleclick		at (226, 554)	21	on_exercise	Exercise.script
+2018-01-29 16:51:19.471 +0530	click	MoviesTV_selected	at (307, 187)	30	on_exercise	Exercise.script
+2018-01-29 16:51:20.531 +0530	typetext		The Big Bang Theory Season[returnKey]	31	on_exercise	Exercise.script
+2018-01-29 16:51:23.788 +0530	imagefound	TheBigBangTheory_season10	Unable to Find Image TheBigBangTheory_season10	34	on_exercise	Exercise.script
+2018-01-29 16:51:23.815 +0530	typetext		[pageDown]	35	on_exercise	Exercise.script
+2018-01-29 16:51:23.819 +0530	Log		going down	36	on_exercise	Exercise.script
+2018-01-29 16:51:25.033 +0530	imagefound	TheBigBangTheory_season10	found at (660, 572)	37	on_exercise	Exercise.script
+2018-01-29 16:51:25.119 +0530	click		at (660, 572)	38	on_exercise	Exercise.script
+2018-01-29 16:51:25.974 +0530	everyimagelocation	DVD_image	found 1 images	46	on_exercise	Exercise.script
+2018-01-29 16:51:26.186 +0530	click		at current mouse point (660, 572)	47	on_exercise	Exercise.script
+2018-01-29 16:51:28.348 +0530	imagefound	Customerswhoboughtthisitemalso	Unable to Find Image Customerswhoboughtthisitemalso within 2.00 seconds	50	on_exercise	Exercise.script
+2018-01-29 16:51:28.386 +0530	scrollwheeldown		moved 4	51	on_exercise	Exercise.script
+2018-01-29 16:51:28.388 +0530	Log		scrolling down	52	on_exercise	Exercise.script
+2018-01-29 16:51:31.539 +0530	imagefound	Backtotop	Unable to Find Image Backtotop	53	on_exercise	Exercise.script
+2018-01-29 16:51:33.644 +0530	imagefound	Customerswhoboughtthisitemalso	Unable to Find Image Customerswhoboughtthisitemalso within 2.00 seconds	57	on_exercise	Exercise.script
+2018-01-29 16:51:33.646 +0530	scrollwheeldown		moved 4	51	on_exercise	Exercise.script
+2018-01-29 16:51:33.648 +0530	Log		scrolling down	52	on_exercise	Exercise.script
+2018-01-29 16:51:36.667 +0530	imagefound	Backtotop	Unable to Find Image Backtotop	53	on_exercise	Exercise.script
+2018-01-29 16:51:36.704 +0530	imagefound	Customerswhoboughtthisitemalso	found at (122, 693)	57	on_exercise	Exercise.script
+2018-01-29 16:51:36.995 +0530	capturescreen	Amazon.png		60	on_exercise	Exercise.script
+2018-01-29 16:51:37.028 +0530	typetext		[windowsAltKey][F4]	62	on_exercise	Exercise.script
+2018-01-29 16:51:38.513 +0530	waitfor	Chrome_icon	found at (565, 127)	2	on_exercise	Exercise.script
+2018-01-29 16:51:38.819 +0530	doubleclick	Chrome_icon	at (565, 127)	7	on_exercise	Exercise.script
+2018-01-29 16:51:40.585 +0530	waitfor	refresh_icon	found at (131, 45)	8	on_exercise	Exercise.script
+2018-01-29 16:51:40.587 +0530	Log		Chrome has launched successfully	9	on_exercise	Exercise.script
+2018-01-29 16:51:40.875 +0530	click	refresh_icon	at (131, 45)	10	on_exercise	Exercise.script
+2018-01-29 16:51:41.771 +0530	typetext		www.amazon.com[returnKey]	11	on_exercise	Exercise.script
+2018-01-29 16:51:43.576 +0530	waitfor	cart_icon	found at (1217, 241)	12	on_exercise	Exercise.script
+2018-01-29 16:51:45.917 +0530	waitfor	refresh_icon	found at (131, 45)	13	on_exercise	Exercise.script
+2018-01-29 16:51:45.919 +0530	Log		cart image found, need to search department	14	on_exercise	Exercise.script
+2018-01-29 16:51:46.125 +0530	click	All_dropdown	at (223, 189)	15	on_exercise	Exercise.script
+2018-01-29 16:51:48.933 +0530	waitfor	AllDepartments	found at (206, 214)	16	on_exercise	Exercise.script
+2018-01-29 16:51:51.170 +0530	imagefound	Movies&TV	Unable to Find Image Movies&TV within 2.00 seconds	18	on_exercise	Exercise.script
+2018-01-29 16:51:51.186 +0530	typetext		[pageDown]	19	on_exercise	Exercise.script
+2018-01-29 16:51:53.474 +0530	imagefound	Movies&TV	Unable to Find Image Movies&TV within 2.00 seconds	20	on_exercise	Exercise.script
+2018-01-29 16:51:55.573 +0530	imagefound	VideoGames	Unable to Find Image VideoGames within 2.00 seconds	24	on_exercise	Exercise.script
+2018-01-29 16:51:57.707 +0530	imagefound	Movies&TV	Unable to Find Image Movies&TV within 2.00 seconds	29	on_exercise	Exercise.script
+2018-01-29 16:51:57.722 +0530	typetext		[pageDown]	19	on_exercise	Exercise.script
+2018-01-29 16:51:59.190 +0530	imagefound	Movies&TV	found at (226, 554)	20	on_exercise	Exercise.script
+2018-01-29 16:51:59.389 +0530	doubleclick		at (226, 554)	21	on_exercise	Exercise.script
+2018-01-29 16:52:00.319 +0530	click	MoviesTV_selected	at (307, 187)	30	on_exercise	Exercise.script
+2018-01-29 16:52:01.377 +0530	typetext		The Big Bang Theory Season[returnKey]	31	on_exercise	Exercise.script
+2018-01-29 16:52:04.758 +0530	imagefound	TheBigBangTheory_season10	Unable to Find Image TheBigBangTheory_season10	34	on_exercise	Exercise.script
+2018-01-29 16:52:04.785 +0530	typetext		[pageDown]	35	on_exercise	Exercise.script
+2018-01-29 16:52:04.786 +0530	Log		going down	36	on_exercise	Exercise.script
+2018-01-29 16:52:05.586 +0530	imagefound	TheBigBangTheory_season10	found at (660, 572)	37	on_exercise	Exercise.script
+2018-01-29 16:52:05.671 +0530	click		at (660, 572)	38	on_exercise	Exercise.script
+2018-01-29 16:52:06.571 +0530	everyimagelocation	DVD_image	found 1 images	46	on_exercise	Exercise.script
+2018-01-29 16:52:06.873 +0530	click		at current mouse point (660, 572)	47	on_exercise	Exercise.script
+2018-01-29 16:52:08.968 +0530	imagefound	Customerswhoboughtthisitemalso	Unable to Find Image Customerswhoboughtthisitemalso within 2.00 seconds	50	on_exercise	Exercise.script
+2018-01-29 16:52:08.971 +0530	scrollwheeldown		moved 4	51	on_exercise	Exercise.script
+2018-01-29 16:52:08.974 +0530	Log		scrolling down	52	on_exercise	Exercise.script
+2018-01-29 16:52:12.252 +0530	imagefound	Backtotop	Unable to Find Image Backtotop	53	on_exercise	Exercise.script
+2018-01-29 16:52:14.328 +0530	imagefound	Customerswhoboughtthisitemalso	Unable to Find Image Customerswhoboughtthisitemalso within 2.00 seconds	57	on_exercise	Exercise.script
+2018-01-29 16:52:14.330 +0530	scrollwheeldown		moved 4	51	on_exercise	Exercise.script
+2018-01-29 16:52:14.333 +0530	Log		scrolling down	52	on_exercise	Exercise.script
+2018-01-29 16:52:17.409 +0530	imagefound	Backtotop	Unable to Find Image Backtotop	53	on_exercise	Exercise.script
+2018-01-29 16:52:17.450 +0530	imagefound	Customerswhoboughtthisitemalso	found at (122, 793)	57	on_exercise	Exercise.script
+2018-01-29 16:52:17.729 +0530	capturescreen	Amazon.png		60	on_exercise	Exercise.script
+2018-01-29 16:52:17.773 +0530	typetext		[windowsAltKey][F4]	62	on_exercise	Exercise.script
+2018-01-29 16:52:17.982 +0530	EndTestCase		(Duration:"81.857", Errors:"0", Exceptions:"0", StartTime:"2018-01-29 16:50:56 +0530", Successes:"1", TestCase:"Exercise.script", Warnings:"0")
+2018-01-29 16:52:18.017 +0530	SUCCESS		Execution Time 0:01:21 Exercise.script

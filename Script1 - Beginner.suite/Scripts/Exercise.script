@@ -1,0 +1,70 @@
+﻿Repeat 2 times
+	WaitFor 2, "Chrome_icon"
+	put Chrome_icon into browser
+	put "www.amazon.com" into URL
+	
+	// Exercise 1 for beginner using images only
+	DoubleClick browser 
+	waitfor 8,"refresh_icon" //check for launch
+	log "Chrome has launched successfully"
+	Click "refresh_icon"
+	TypeText URL, returnKey
+	WaitFor 30.0, "cart_icon"
+	waitfor 8,"refresh_icon"
+	log "cart image found, need to search department"
+	Click "All_dropdown"
+	WaitFor 8.0, "AllDepartments" // dropdown is open
+	
+	Repeat until ImageFound(2, "Movies&TV")
+		TypeText pageDown
+		if ImageFound(2, "Movies&TV")
+			doubleclick FoundImageLocation()
+			exit repeat
+		else 
+			if ImageFound(2,"VideoGames")
+				log "image not found"
+				exit script
+			end if
+		end if
+	End repeat
+	Click (Image:"MoviesTV_selected", WaitFor: 8) //Movies & TV selected to search for series
+	TypeText "The Big Bang Theory Season",returnKey // 
+	
+	(*to search the 10th season of Big Bang theory*)
+	Repeat until ImageFound("TheBigBangTheory_season10")
+		TypeText pageDown
+		log "going down"
+		if ImageFound("TheBigBangTheory_season10")
+			click FoundImageLocation()
+			exit repeat
+		else
+			Log "No image found, you have hit bottom"
+			exit script
+		end if
+	End repeat
+	
+	put EveryImageLocation("DVD_image") into DVDList // checking all instances of DVD
+	click item 2 of DVDList // selecting the 2nd instance
+	
+	(*search for customers who bought this item*)
+	Repeat until ImageFound(2, "Customerswhoboughtthisitemalso")
+		ScrollWheelDown 4
+		log "scrolling down"
+		If ImageFound("Backtotop")
+			log "hit bottom, image not found"
+			exit repeat
+		End if
+	End repeat
+	
+	(*Take a screenprint*)
+	CaptureScreen (Name: "Amazon.png")
+	//close the browser
+	TypeText altKey & f4
+End repeat
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2018-01-29 14:55:51.455 +0530,"Running",0:00:00,0,0,0,"20180129_145551.455/LogFile.txt","","",0
+2018-01-29 15:47:46.354 +0530,"Success",0:00:31,0,0,0,"20180129_154746.354/LogFile.txt","","",1
+2018-01-29 15:49:00.664 +0530,"Success",0:00:45,0,0,0,"20180129_154900.664/LogFile.txt","","",1
+2018-01-29 16:24:39.631 +0530,"Success",0:01:17,0,0,0,"20180129_162439.631/LogFile.txt","","",1
+2018-01-29 16:28:47.674 +0530,"Running",0:00:00,0,0,0,"20180129_162847.674/LogFile.txt","","",0
+2018-01-29 16:30:15.583 +0530,"Running",0:00:00,0,0,0,"20180129_163015.583/LogFile.txt","","",0
+2018-01-29 16:33:06.359 +0530,"Failure",0:00:22,1,0,1,"20180129_163306.359/LogFile.txt","","Image Not Found -- waitfor Error - Unable To Find Any Image On Screen ""AllDepartments"" within 8.00 seconds",0
+2018-01-29 16:35:22.601 +0530,"Failure",0:01:09,1,0,1,"20180129_163522.601/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""MoviesTV_selected""",0
+2018-01-29 16:37:20.806 +0530,"Failure",0:00:50,1,0,1,"20180129_163720.806/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""MoviesTV_selected""",0
+2018-01-29 16:45:31.721 +0530,"Running",0:00:00,0,0,0,"20180129_164531.721/LogFile.txt","","",0
+2018-01-29 16:50:56.115 +0530,"Success",0:01:21,0,0,0,"20180129_165056.115/LogFile.txt","","",1

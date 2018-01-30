@@ -1,0 +1,4 @@
+﻿params X,Y,Z
+
+log X+Y
+log Y*Z

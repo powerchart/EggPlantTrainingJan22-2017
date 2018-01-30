@@ -1,0 +1,26 @@
+﻿2018-01-29 15:47:46.360 +0530	START		Running Exercise.script
+2018-01-29 15:47:46.725 +0530	doubleclick	Chrome_icon	at (565, 127)	5	on_exercise	Exercise.script
+2018-01-29 15:47:48.527 +0530	waitfor	refresh_icon	found at (131, 45)	6	on_exercise	Exercise.script
+2018-01-29 15:47:48.529 +0530	Log		Chrome has launched successfully	7	on_exercise	Exercise.script
+2018-01-29 15:47:48.817 +0530	click	refresh_icon	at (131, 45)	8	on_exercise	Exercise.script
+2018-01-29 15:47:49.710 +0530	typetext		www.amazon.com[returnKey]	9	on_exercise	Exercise.script
+2018-01-29 15:47:51.909 +0530	waitfor	cart_icon	found at (1234, 241)	10	on_exercise	Exercise.script
+2018-01-29 15:47:57.452 +0530	waitfor	refresh_icon	found at (131, 45)	11	on_exercise	Exercise.script
+2018-01-29 15:47:57.458 +0530	Log		cart image found, need to search	12	on_exercise	Exercise.script
+2018-01-29 15:47:57.635 +0530	click	All_dropdown	at (223, 189)	13	on_exercise	Exercise.script
+2018-01-29 15:48:01.117 +0530	waitfor	AllDepartments	found at (206, 214)	14	on_exercise	Exercise.script
+2018-01-29 15:48:03.165 +0530	imagefound	Chrome_icon	Unable to Find Image Chrome_icon within 2.00 seconds	16	on_exercise	Exercise.script
+2018-01-29 15:48:03.182 +0530	typetext		[pageDown]	17	on_exercise	Exercise.script
+2018-01-29 15:48:05.252 +0530	imagefound	Chrome_icon	Unable to Find Image Chrome_icon within 2.00 seconds	18	on_exercise	Exercise.script
+2018-01-29 15:48:07.297 +0530	imagefound	VideoGames	Unable to Find Image VideoGames within 2.00 seconds	21	on_exercise	Exercise.script
+2018-01-29 15:48:09.352 +0530	imagefound	Chrome_icon	Unable to Find Image Chrome_icon within 2.00 seconds	26	on_exercise	Exercise.script
+2018-01-29 15:48:09.367 +0530	typetext		[pageDown]	17	on_exercise	Exercise.script
+2018-01-29 15:48:11.440 +0530	imagefound	Chrome_icon	Unable to Find Image Chrome_icon within 2.00 seconds	18	on_exercise	Exercise.script
+2018-01-29 15:48:13.530 +0530	imagefound	VideoGames	Unable to Find Image VideoGames within 2.00 seconds	21	on_exercise	Exercise.script
+2018-01-29 15:48:15.605 +0530	imagefound	Chrome_icon	Unable to Find Image Chrome_icon within 2.00 seconds	26	on_exercise	Exercise.script
+2018-01-29 15:48:15.620 +0530	typetext		[pageDown]	17	on_exercise	Exercise.script
+2018-01-29 15:48:17.687 +0530	imagefound	Chrome_icon	Unable to Find Image Chrome_icon within 2.00 seconds	18	on_exercise	Exercise.script
+2018-01-29 15:48:17.807 +0530	imagefound	VideoGames	found at (236, 553)	21	on_exercise	Exercise.script
+2018-01-29 15:48:17.809 +0530	Log		image not found	22	on_exercise	Exercise.script
+2018-01-29 15:48:18.021 +0530	EndTestCase		(Duration:"31.656", Errors:"0", Exceptions:"0", StartTime:"2018-01-29 15:47:46 +0530", Successes:"1", TestCase:"Exercise.script", Warnings:"0")
+2018-01-29 15:48:18.088 +0530	SUCCESS		Execution Time 0:00:32 Exercise.script
