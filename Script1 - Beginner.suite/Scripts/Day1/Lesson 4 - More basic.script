@@ -32,13 +32,13 @@ LogError "Displays in Red Color and stops the execution"
 if ImageFound("chrome Image/chrome Icon")
 	logsuccess "found it"
 else 
-	if ImageFound("chrome Image/Highlited chrome")
-		LogSuccess "found if -highlited"
-	else
-		logwarning "did not found it"
-	end if
+if ImageFound("chrome Image/Highlited chrome")
+	LogSuccess "found if -highlited"
+else
+	logwarning "did not found it"
 end if
-
+end if
+minimized 
 
 //Mini coding session to use if/else statements.
 

@@ -1,4 +1,4 @@
 ﻿//Accessing the file content
 
 put file ResourcePath("Data Driven Test.csv") into Patient_Info
-log Patient_Info
+log item 4 of line 1 of Patient_Info

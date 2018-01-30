@@ -46,9 +46,10 @@ log var
 put (item 1 of var,(item 1 of var+(0,45))) into rr
 //log rr
 put the number of items of var into max
+log max
 
 repeat max times
-	put (item 1 of var,(item 1 of var+(55,45))) into rr
+	put (item repeatindex() of var,(item repeatindex() of var+(67,30))) into rr
 	log readtext(rr)
 	wait 2
 end repeat

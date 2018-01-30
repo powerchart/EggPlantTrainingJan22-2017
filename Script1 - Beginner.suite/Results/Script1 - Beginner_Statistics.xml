@@ -56,6 +56,14 @@
   <LastRun>2017-12-11 12:34:48 -0600</LastRun>
   <TotalTimeOnSuccess>35.709000</TotalTimeOnSuccess>
  </script>
+ <script name="Exercise">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>7</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2018-01-29 15:47:46 +0530</FirstRun>
+  <LastRun>2018-01-29 16:50:56 +0530</LastRun>
+  <TotalTimeOnSuccess>236.134000</TotalTimeOnSuccess>
+ </script>
  <script name="Day1/Lesson 4 - More basic">
   <LastStatus>Success</LastStatus>
   <NumberOfRuns>1</NumberOfRuns>

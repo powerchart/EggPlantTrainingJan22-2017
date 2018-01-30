@@ -130,8 +130,8 @@ log var plus var2
 log the date
 log the date plus three days
 
-
-
+put (username:"aphadba",password:"abc",domain:"1501DEP") into x
+put "domain" 
 
 
 

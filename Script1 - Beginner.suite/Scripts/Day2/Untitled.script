@@ -1,2 +1,7 @@
-﻿put value after variable //Add the value at the end of the List we can explain this during list.
+﻿put 1 into variable
+put value after variable
+log variable//Add the value at the end of the List we can explain this during list.
 put value before variable //Add the value at the begining of the list.
+
+
+rightClick (Text:"quick access")
