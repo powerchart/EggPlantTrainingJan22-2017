@@ -23,3 +23,8 @@ end look_for_somthing
 on runway
 	log "we are out"
 end runway
+
+function new x,y
+	put X+y into add
+	return add	
+end new

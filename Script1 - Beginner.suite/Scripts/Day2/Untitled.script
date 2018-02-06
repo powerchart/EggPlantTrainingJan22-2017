@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 ﻿put 1 into variable
 put value after variable
 log variable//Add the value at the end of the List we can explain this during list.
@@ -9,11 +9,6 @@ rightClick (Text:"quick access")
 =======
 ﻿put value after variable //Add the value at the end of the List we can explain this during list.
 put value before variable //Add the value at the begining of the list.
-
-
-
-
-
 
 put ImageLocation(Text:"MRN") into loc
 log loc
@@ -35,7 +30,6 @@ log topleft of ((908,148,943,162))
 put bottomRight of ImageLocation(Text:"MRN") into BR
 
 log TR, BR
-
 
 
 put ImageLocation(Text:"MRN") into SR

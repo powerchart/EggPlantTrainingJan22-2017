@@ -1,0 +1,19 @@
+﻿(*
+//Execution of scripts in master
+
+Day3/Script1
+
+Day3/Script1
+
+
+
+Run "Day3/Script1"
+
+
+//global variables
+*)
+
+put "something" into global var
+
+
+Run "Day3/Global Varibales"

@@ -1,0 +1,23 @@
+﻿2018-02-02 21:06:32.471 +0530	START		Running Exercise.script
+2018-02-02 21:06:32.755 +0530	waitfor	Chrome_icon	found at (573, 133)	1	on_exercise	Exercise.script
+2018-02-02 21:06:33.247 +0530	doubleclick	Chrome_icon	at (573, 133)	6	on_exercise	Exercise.script
+2018-02-02 21:06:35.489 +0530	waitfor	refresh_icon	found at (131, 45)	7	on_exercise	Exercise.script
+2018-02-02 21:06:35.493 +0530	Log		Chrome has launched successfully	8	on_exercise	Exercise.script
+2018-02-02 21:06:35.864 +0530	click	refresh_icon	at (131, 45)	9	on_exercise	Exercise.script
+2018-02-02 21:06:36.806 +0530	typetext		www.amazon.com[returnKey]	10	on_exercise	Exercise.script
+2018-02-02 21:06:38.516 +0530	waitfor	cart_icon	found at (1857, 241)	11	on_exercise	Exercise.script
+2018-02-02 21:06:40.898 +0530	waitfor	refresh_icon	found at (131, 45)	12	on_exercise	Exercise.script
+2018-02-02 21:06:40.902 +0530	Log		cart image found, need to search department	13	on_exercise	Exercise.script
+2018-02-02 21:06:41.350 +0530	click	All_dropdown	at (223, 189)	14	on_exercise	Exercise.script
+2018-02-02 21:06:42.055 +0530	waitfor	AllDepartments	found at (206, 214)	15	on_exercise	Exercise.script
+2018-02-02 21:06:44.477 +0530	imagefound	Movies&TV	Unable to Find Image Movies&TV within 2.00 seconds	17	on_exercise	Exercise.script
+2018-02-02 21:06:44.501 +0530	typetext		[pageDown]	18	on_exercise	Exercise.script
+2018-02-02 21:06:46.904 +0530	imagefound	Movies&TV	Unable to Find Image Movies&TV within 2.00 seconds	19	on_exercise	Exercise.script
+2018-02-02 21:06:48.998 +0530	imagefound	VideoGames	Unable to Find Image VideoGames within 2.00 seconds	23	on_exercise	Exercise.script
+2018-02-02 21:06:51.362 +0530	imagefound	Movies&TV	Unable to Find Image Movies&TV within 2.00 seconds	28	on_exercise	Exercise.script
+2018-02-02 21:06:51.386 +0530	typetext		[pageDown]	18	on_exercise	Exercise.script
+2018-02-02 21:06:53.765 +0530	imagefound	Movies&TV	Unable to Find Image Movies&TV within 2.00 seconds	19	on_exercise	Exercise.script
+2018-02-02 21:06:55.916 +0530	imagefound	VideoGames	Unable to Find Image VideoGames within 2.00 seconds	23	on_exercise	Exercise.script
+2018-02-02 21:06:56.000 +0530	imagefound	Movies&TV	found at (226, 554)	28	on_exercise	Exercise.script
+2018-02-02 21:07:40.461 +0530	EndTestCase		(Duration:"67.985", Errors:"1", Exceptions:"0", StartTime:"2018-02-02 21:06:32 +0530", Successes:"0", TestCase:"Exercise.script", Warnings:"0")
+2018-02-02 21:07:40.464 +0530	ABORTED		Execution Time 0:01:08 Exercise.script

@@ -1,1 +1,3 @@
 ﻿log "Day 3 Script1"
+
+log global var

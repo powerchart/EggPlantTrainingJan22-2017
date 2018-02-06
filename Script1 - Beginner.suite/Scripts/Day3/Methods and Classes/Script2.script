@@ -2,3 +2,11 @@
 
 log X+Y
 log Y*Z
+
+// to search text and move to each
+put EveryImageLocation((Text:"New")) into newlist
+put the number of items of newlist into max
+repeat max times
+	MoveTo (item repeatindex() of newlist)
+	wait 2
+end repeat

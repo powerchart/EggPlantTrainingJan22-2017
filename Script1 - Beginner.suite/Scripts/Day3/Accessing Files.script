@@ -24,14 +24,14 @@ put file ResourcePath("Test3.xls") into var1
 
 //reading the text from MS Word having text, tables and images.
 put file ResourcePath("Sample text and table.docx") into var2
-
+log var2
 (******************************************
 2. Reading the file with multiple lines of text and printing using repeatindex.
 *******************************************)
 
 
 put file ResourcePath("Test1.txt") into var
-put the number of lines  of var into count
+put the number of lines of var into count
 log count
 //log line 3 of var
 //using Put for repeat index.

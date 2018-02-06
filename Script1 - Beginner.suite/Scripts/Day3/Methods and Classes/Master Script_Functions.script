@@ -5,4 +5,6 @@ Run "Day3/Methods and Classes/Method_Definitations".door
 Run "Day3/Methods and Classes/Method_Definitations".look_for_somthing
 Run "Day3/Methods and Classes/Method_Definitations".runway
 
+log "Day3/Methods and Classes/Method_Definitations".new (2,3)
+
 
